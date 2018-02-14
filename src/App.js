@@ -1,21 +1,28 @@
-import React, { Component } from 'react'
-import { hot } from 'react-hot-loader'
-//
-import './app.css'
-import logo from './logo.png'
-
+import React, { Component } from 'react';
+import { hot } from 'react-hot-loader';
+import './app.css';
+import { Switch, Route } from 'react-router-dom';
+import NavigationBar from './components/NavigationBar';
+import MobileNav from './components/MobileNav';
+import HomePage from './components/HomePage.js';
+import LearnMore from './components/LearnMore.js';
+import Footer from './components/Footer.js';
 class App extends Component {
   render () {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React-Static</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div>
+      <div className="main">
+        <div className="squeeze">
+          <NavigationBar />
+          <MobileNav />
+          <Switch>
+          <Route component={ HomePage } exact path="/"/>
+          <Route component={ LearnMore } path="/learn"/>
+          </Switch>
+        </div>
       </div>
+      <Footer />
+    </div>
     )
   }
 }

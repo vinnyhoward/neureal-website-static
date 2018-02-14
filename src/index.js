@@ -1,5 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { HashRouter } from "react-router-dom";;
 
 // Your top level component
 import App from './App'
@@ -11,7 +12,10 @@ export default App
 if (typeof document !== 'undefined') {
   const renderMethod = module.hot ? ReactDOM.render : ReactDOM.hydrate || ReactDOM.render
   const render = Comp => {
-    renderMethod(<Comp />, document.getElementById('root'))
+    renderMethod(
+      <HashRouter>
+        <Comp /> 
+      </HashRouter>, document.getElementById('root'))
   }
 
   // Render!
