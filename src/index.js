@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter } from "react-router-dom";;
+import { HashRouter, Router } from "react-router-dom";;
 
 // Your top level component
 import App from './App'
