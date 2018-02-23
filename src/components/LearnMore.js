@@ -7,7 +7,7 @@ export default class LearnMore extends Component {
             <div className="content">
             <div className="flex-reverse">
                 <div className="column column__two-thirds">
-                    <div className="padding-image"><img src="https://image.ibb.co/gFfhd7/Comp_5.gif" alt="" className="content__image" /></div>
+                    <div className="padding-image"><img src={require('../images/Comp_5.gif')} alt="" className="content__image" /></div>
                         </div>
                         <div className="column column__one-third">
                                 <h1 className="content__title">What is Neureal?</h1>
@@ -29,14 +29,14 @@ export default class LearnMore extends Component {
                         </p>
                     </div>
                     <div className="column column__two-thirds">
-                        <img src="https://image.ibb.co/jTiUQn/Comp_2.gif" alt="" className="content__image" />
+                        <img src={require('../images/Comp_2.gif')} alt="" className="content__image" />
                             </div>
                 </div>
 
 
             <div className="flex-reverse">
                 <div className="column column__two-thirds">
-                    <img src="https://image.ibb.co/g3i2d7/Comp_4.gif" alt="" className="content__image" />
+                    <img src={require('../images/Comp_4.gif')} alt="" className="content__image" />
                         </div>
                         <div className="column column__one-third">
                             <div learn-more-flex>
