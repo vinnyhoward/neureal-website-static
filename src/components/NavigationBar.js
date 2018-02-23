@@ -17,7 +17,7 @@ export default class NavigationBar extends Component {
                         {/* </span> */}
                 </nav>
             </div>
-          <div className="mobile-logo-container"><img src="https://s18.postimg.org/dvjeyieex/blue_Asset_1.png" alt="logo" className="mobile-logo" /></div>
+            <Link to='/' style={{ textDecoration: 'none' }} ><div className="mobile-logo-container"><img src="https://s18.postimg.org/dvjeyieex/blue_Asset_1.png" alt="logo" className="mobile-logo" /></div></Link>
       </div>
     )
   }

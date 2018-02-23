@@ -28,7 +28,7 @@ export default class MobileNav extends Component {
                 <span></span>
             </div>
             <div className={ this.state.sideMenuOpen ? 'sidebar-active' : 'sidebar' }>
-            <Link to='/home'><a href='./index.html'><img src="https://s18.postimg.org/ui0z7yhqx/logo_Asset2.png" alt="logo" className="logo" /></a></Link>
+            <Link to='/'><a href='./index.html'><img src="https://s18.postimg.org/ui0z7yhqx/logo_Asset2.png" alt="logo" className="logo" /></a></Link>
                 <ul className='menu'>
                 <Link to='/blog'><li><a>Blog</a></li></Link>
                     {/* <li><a>Transparency</a></li> */}
