@@ -637,6 +637,11 @@ margin: 17.5px;
       font-size: 16pt;
   }
 
+
+.learn-more-padding {
+    padding-top: 20px;
+}
+
     .roadmap-img {
         padding-top: 10px;
     }
