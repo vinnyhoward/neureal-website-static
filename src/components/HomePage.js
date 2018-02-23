@@ -16,7 +16,7 @@ export default class HomePage extends Component {
                         </div>
                     </div>
                     <div className="column column__two-thirds">
-                        <img src="https://s18.postimg.org/88n2161nd/globe_white.png" alt="" className="content__image" />
+                        <img src={require('../images/Comp_1.gif')} alt="" className="content__image" />
                     </div>
                 </div>
                 <div className="grid">
