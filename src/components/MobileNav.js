@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 export default class MobileNav extends Component {
   state={ 
@@ -27,11 +28,11 @@ export default class MobileNav extends Component {
                 <span></span>
             </div>
             <div className={ this.state.sideMenuOpen ? 'sidebar-active' : 'sidebar' }>
-                <a href='./index.html'><img src="https://s18.postimg.org/ui0z7yhqx/logo_Asset2.png" alt="logo" className="logo" /></a>
+            <Link to='/home'><a href='./index.html'><img src="https://s18.postimg.org/ui0z7yhqx/logo_Asset2.png" alt="logo" className="logo" /></a></Link>
                 <ul className='menu'>
-                    <li><a>Blog</a></li>
-                    <li><a>Transparency</a></li>
-                    <li><a href='./team.html'>Team</a></li>
+                <Link to='/blog'><li><a>Blog</a></li></Link>
+                    {/* <li><a>Transparency</a></li> */}
+                    <Link to='/team'><li><a href='./team.html'>Team</a></li></Link>
                     <li><a>Telegram</a></li>
                     <li><a>Whitepaper</a></li>
                     <li><img className='sidebar-image' src='https://s18.postimg.org/5js9ba92h/prediction-side-bar-asset.png' alt="logo" /></li>

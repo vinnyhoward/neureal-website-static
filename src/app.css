@@ -63,6 +63,11 @@ body {
     display: none;
 }
 
+.sidebar-active {
+  opacity: 0;
+  display: none;
+}
+
 .grain {
     /* content: "";
     background: url('./images/background-grain.png') repeat;
@@ -85,11 +90,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed;
-    top: 0; 
-    left: 0;
-    height: 100px; */
-    /* padding: 10px 100px; */
     box-sizing: border-box;
     transition: 0.5s;
 
@@ -132,24 +132,27 @@ transform: translate( 30px, -30px );
 }
 
 .nav-menu__item-white {
-    padding-left: 15px;
+    /* padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
-    transition: .5s;
+    transition: .5s; */
 }
 
-.nav-menu__button {
-    background: linear-gradient(#ececec, #bcbcbc);
-    color: #373a47;
-    cursor: pointer;
-    /* padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px; */
-    height: 40px; 
-    width: 300px;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.079);
-    transition: .5s;
+
+.nav-menu__item-white div {
+    margin-left: 15px;
+    display: inline-block;
+    height: 45px; 
+    width: 175px;
+    background: linear-gradient(#ecdc70, #e4ac62);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.072);
+    padding: 14px;
+    padding-left: 40px;
+}
+
+.nav-menu__item-white div:hover {
+    transition: all 0.3s ease 0s;
+    background: radial-gradient(circle at center, #fff29d, #e4ac62);
 }
 
 .nav-menu__button:hover {
@@ -158,6 +161,13 @@ transform: translate( 30px, -30px );
     transition-duration: 0.3s;
     transition-timing-function: linear;
     transition-delay: initial;
+}
+
+.telegram-icon {
+    display: inline-block;
+    height: 100%;
+    width: 30px;
+    transform-origin: 50% 50%;
 }
 
 .content {
@@ -236,6 +246,13 @@ transform: translate( 30px, -30px );
     color: rgb(30, 30, 30);
     font-size: 15px;
     cursor: pointer;
+    transition: background .5s;
+    transition: all 0.3s ease 0s;
+}
+
+div .learn-more-button:hover {
+    transition: all 0.3s ease 0s;
+    background: radial-gradient(circle at center, #fff29d, #e4ac62);
 }
 
 .learn-more a {
@@ -262,6 +279,13 @@ transform: translate( 30px, -30px );
     color: rgb(30, 30, 30);
     font-size: 15px;
     cursor: pointer;
+}
+
+.roadmap-button:hover {
+    transition: all 0.3s ease 0s;
+    background: radial-gradient(circle at center,#e0e0e0, #d2d2d2);
+    cursor: pointer;
+    transition: background .5s;
 }
 .road-map a {
     color: black;
@@ -292,7 +316,8 @@ justify-content: space-around;
 
 .flex-team {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr); 
 }
 
 .column {
@@ -393,7 +418,7 @@ justify-content: space-around;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color: #ffffff;
+    color: rgb(20, 20, 20);
     font-size: 18pt;
     text-align: center;
     padding-bottom: 25px;
@@ -445,6 +470,161 @@ justify-content: space-around;
      width: 100%;
  }
 
+ .profile {
+   /* position: absolute; */
+   margin: 10px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-0%, -0%);
+   width: 300px;
+   height: 300px;
+   background: #fff;
+   box-sizing: border-box;
+   /* border-radius: 10px; */
+   overflow: hidden;
+   box-shadow: 0 5px 5px rgba(0, 0, 0, .2)
+ }
+
+ .profile img {
+   width: 100%;
+   cursor: pointer;
+   /* border-top-right-radius: 10px;
+   border-top-left-radius: 10px; */
+
+ }
+
+ .profile .view {
+   position: absolute;
+   bottom: 15px;
+   left: 50%;
+   transform: translateX(-50%);
+   margin: 0;
+   padding: 10px 20px;
+   background: #ececec;
+   color: #191919;
+   /* border-radius: 15px; */
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 10px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+ }
+
+ .details {
+   height: 100%;
+   width: 100%;
+   background: #fff;
+   position: absolute;
+   bottom: 0;
+   text-align: center;
+   padding: 20px;
+   box-sizing: border-box;
+   transition: .5s;
+   /* transform: perspective(500px) scale(0);  */
+ }
+
+
+ .details-more {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  /* position: absolute; */
+  bottom: 0;
+  /* text-align: center;
+  padding: 20px;
+  box-sizing: border-box; */
+  transition: .3s;
+  transform: perspective(500px) scale(0); 
+}
+
+
+ .details.active {
+   transform: perspective(500px) scale(0);
+ }
+
+ .details h2 {
+   margin: 0;
+   padding: 0;
+   color: rgb(20, 20, 20);
+   font-size: 18px;
+   text-transform: uppercase;
+ }
+
+ .details h2 span {
+  font-size: 14px;
+  color: #ccc;
+ }
+
+ .details p {
+  margin: 0;
+  padding: 10px 0 0;
+  font-size: 14px;
+  color: #aaa;
+ }
+
+.details h3 {
+  background: #00bcd4;
+  color: #fff;
+  padding: 8px 50px;
+  border-radius: 25px;
+  display: -webkit-inline-box;
+  margin: 15px;
+ }
+
+.details ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.details ul li {
+  list-style: none;
+  font-size: 20px;
+  width: 13%;
+}
+
+.details ul li:nth-child(1) {
+  color: #3b5998;
+}
+
+.details .team-social-icon {
+  width: 100%;
+  
+}
+
+.details span {
+  font-weight: 400;
+  
+}
+
+.close-button {
+max-width: 15px;
+max-height: 15px;
+margin: 17.5px;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.social-flex {
+  position: absolute;
+  top: 260px;
+  right: 60px;
+}
+
+@media (max-width: 1000px) {
+  .flex-team {
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+}
+
   @media (max-width: 805px) {
 
     .grid p {
@@ -481,7 +661,7 @@ justify-content: space-around;
     .flex-team {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -601,9 +781,10 @@ justify-content: space-around;
             padding-top: 15px;
         }
         .menu li a:hover {
-            background: linear-gradient(#ebda6d, #e5ae65);
+            /* background: linear-gradient(#ebda6d, #e5ae65); */
             color: #fff;
             box-shadow: 2px 5px 14px rgba(0, 0, 0, 0.075);
+            transition: .5s;
         }
         .menu-icon.active span {
             position: absolute;

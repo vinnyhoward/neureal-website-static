@@ -7,6 +7,8 @@ import MobileNav from './components/MobileNav';
 import HomePage from './components/HomePage.js';
 import LearnMore from './components/LearnMore.js';
 import Footer from './components/Footer.js';
+import RoadMap from './components/RoadMap.js';
+import Team from './components/Team.js';
 class App extends Component {
   render () {
     return (
@@ -18,6 +20,8 @@ class App extends Component {
           <Switch>
           <Route component={ HomePage } exact path="/"/>
           <Route component={ LearnMore } path="/learn"/>
+          <Route component={ RoadMap } path="/roadmap"/>
+          <Route component={ Team } path="/team"/>
           </Switch>
         </div>
       </div>
