@@ -432,34 +432,6 @@ justify-content: space-around;
     padding-bottom: 25px;
  }
 
- .team-name{
-     display: inline-block;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: 400;
-     color: #ffffff;
-     padding-left: 10px;
-     padding-top: 5px;
- }
-
- .team-role {
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    color: #ffffff;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 12px;
-
- }
-
- .team-image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    box-shadow: 2px 5px 16px rgba(0, 0, 0, 0.182);
-}
-
  .team-background {
      display: flex;
      flex-direction: column;
@@ -477,74 +449,6 @@ justify-content: space-around;
      padding-top: 50px;
      width: 100%;
  }
-
- .profile {
-   /* position: absolute; */
-   margin: 10px;
-   top: 50%;
-   left: 50%;
-   transform: translate(-0%, -0%);
-   width: 300px;
-   height: 300px;
-   background: #fff;
-   box-sizing: border-box;
-   /* border-radius: 10px; */
-   overflow: hidden;
-   box-shadow: 0 5px 5px rgba(0, 0, 0, .2)
- }
-
- .profile img {
-   width: 100%;
-   cursor: pointer;
-   /* border-top-right-radius: 10px;
-   border-top-left-radius: 10px; */
-
- }
-
- .profile .view {
-   position: absolute;
-   bottom: 15px;
-   left: 50%;
-   transform: translateX(-50%);
-   margin: 0;
-   padding: 10px 20px;
-   background: #ececec;
-   color: #191919;
-   /* border-radius: 15px; */
-   text-transform: uppercase;
-   text-decoration: none;
-   font-size: 10px;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 400;
- }
-
- .details {
-   height: 100%;
-   width: 100%;
-   background: #fff;
-   position: absolute;
-   bottom: 0;
-   text-align: center;
-   padding: 20px;
-   box-sizing: border-box;
-   transition: .5s;
-   /* transform: perspective(500px) scale(0);  */
- }
-
-
- .details-more {
-  height: 100%;
-  width: 100%;
-  background: #fff;
-  /* position: absolute; */
-  bottom: 0;
-  /* text-align: center;
-  padding: 20px;
-  box-sizing: border-box; */
-  transition: .3s;
-  transform: perspective(500px) scale(0); 
-}
-
 
  .details.active {
    transform: perspective(500px) scale(0);
@@ -605,25 +509,6 @@ justify-content: space-around;
   
 }
 
-.close-button {
-max-width: 15px;
-max-height: 15px;
-margin: 17.5px;
-}
-
-.close {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  cursor: pointer;
-}
-
-.social-flex {
-  position: absolute;
-  top: 260px;
-  right: 60px;
-}
-
 /* ========================================================================== */
 /* Blog Section */
 /* ========================================================================== */
@@ -677,7 +562,7 @@ margin: 17.5px;
 
 .blog-detail-container {
     padding-top: 50px;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .author-of-blog {
@@ -774,6 +659,85 @@ margin: 17.5px;
     font-size: 28px;
 }
 
+/* ========================================================================== */
+/* TEAM */
+/* ========================================================================== */
+.team-box {
+    background-color: #fff;
+    height: 300px;
+    width: 270px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.flex-team {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-row-gap: 30px;
+    align-self: center;
+    justify-self: center;
+    grid-gap: 50px;
+}
+
+.team-box-container {
+    padding: 25px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.name-title-container {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.team-icon-container {
+
+}
+
+.team-role {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #00a8e1;
+    padding-bottom: 5px;
+    font-size: 12px;
+
+ }
+
+ .team-image {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-name{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.biography {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    text-align: center;
+}
+
+
 
 @media (max-width: 1000px) {
 .blog-column__two-thirds {
@@ -805,6 +769,16 @@ grid-template-columns: repeat(2, 1fr);
 }
 
   @media (max-width: 805px) {
+
+.team-box {
+    background-color: #fff;
+    height: 300px;
+    width: 270px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .blog-secondary-grid-container {
     padding-top: 75px;
@@ -886,17 +860,11 @@ grid-template-columns: repeat(2, 1fr);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         align-content: center;
-        }
-    
-        .team-image {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-        
+     
+        }        
         
         .logo {
          margin-top: 30px;
