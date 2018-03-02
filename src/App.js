@@ -10,6 +10,7 @@ import Footer from './components/Footer.js';
 import RoadMap from './components/RoadMap.js';
 import Team from './components/Team.js';
 import Blog from './components/Blog.js';
+import BlogPosts from './components/posts/BlogPosts';
 class App extends Component {
   render () {
     return (
@@ -25,6 +26,8 @@ class App extends Component {
           <Route component={ RoadMap } path="/roadmap"/>
           <Route component={ Blog } path="/blog"/>
           <Route component={ Team } path="/team"/>
+
+          <Route component={ BlogPosts } path="/blog-1"/>
           </Switch>
         </div>
       </div>

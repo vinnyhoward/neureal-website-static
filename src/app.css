@@ -337,10 +337,15 @@ justify-content: space-around;
     width: 66.66%;
 }
 
-.column__one-fourth {
-
+.column__post {
+    width: 70%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    
 }
-
 .column__full {
     width: 100%;
     
@@ -645,12 +650,13 @@ margin: 17.5px;
 
 .caption-blog {
     color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 14px;
+    margin-bottom: 15px;
     padding-bottom: 10px;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    line-height: 25px;
 }
 
 .creator-blog {
@@ -698,6 +704,7 @@ margin: 17.5px;
 
 .flex-author {
     display: flex;
+    
 }
 
 .flex-date {
@@ -727,6 +734,7 @@ margin: 17.5px;
 
 .blog-column-secondary {
     width: 100%;
+    margin-left: 10px;
 }
 
 .title-blog-secondary {
@@ -740,14 +748,31 @@ margin: 17.5px;
 
 .blog-detail-container-secondary {
     padding-top: 10px;
-    /* margin: 10px; */
+    margin-top: 10px;
 }
 
 .image-blog-container-secondary {
     padding-top: 10px;
-    /* margin: 10px; */
+    margin: 10px;
 }
 
+.blog-post-container{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.paragraph-title{
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
 
 
 @media (max-width: 1000px) {
@@ -780,6 +805,14 @@ grid-template-columns: repeat(2, 1fr);
 }
 
   @media (max-width: 805px) {
+
+.blog-secondary-grid-container {
+    padding-top: 75px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px;
+}
 
 .title-blog {
     color: rgba(0, 0, 0, 0.9);
@@ -1225,6 +1258,14 @@ grid-template-columns: repeat(2, 1fr);
    }
 
    @media (max-width: 650px) {
+
+    .blog-secondary-grid-container {
+        padding-top: 20px;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-gap: 20px;
+    }
 
     .flex{
         /* width: 375px; */

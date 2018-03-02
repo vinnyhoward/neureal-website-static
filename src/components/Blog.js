@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 
 export default class Blog extends Component {
   render() {
     return (
       <div>
           <div className="content">
-        <div className='blog-header-container'>
+          <Link to='/blog-1' ><div className='blog-header-container'>
         <div className='blog-column__two-thirds'>
           <div className='image-blog-container'>
-          <img className='img-main-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
+         <img className='img-main-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
           </div>
         </div>
         <div className='blog-column__one-thirds'>
@@ -27,10 +28,10 @@ export default class Blog extends Component {
           </div>
         </div>
         </div>
-
+</Link>
         <div className='blog-secondary-grid-container'>
 
-
+<Link to='/blog-1' >
         <div className='blog-secondary-container'>
           <div className='image-blog-container-secondary'>
           <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
@@ -51,7 +52,9 @@ export default class Blog extends Component {
           </div>
         </div>
         </div>
+        </Link>
 
+<Link to='/blog-1' >
         <div className='blog-secondary-container'>
           <div className='image-blog-container-secondary'>
           <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
@@ -72,8 +75,9 @@ export default class Blog extends Component {
           </div>
         </div>
         </div>
+        </Link>
 
-
+<Link to='/blog-1' >
         <div className='blog-secondary-container'>
           <div className='image-blog-container-secondary'>
           <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
@@ -94,7 +98,9 @@ export default class Blog extends Component {
           </div>
         </div>
         </div>
+        </Link>
 
+<Link to='/blog-1' >
                 <div className='blog-secondary-container'>
           <div className='image-blog-container-secondary'>
           <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
@@ -115,8 +121,10 @@ export default class Blog extends Component {
           </div>
         </div>
         </div>
+        </Link>
+        
 
-
+        <Link to='/blog-1' >
         <div className='blog-secondary-container'>
           <div className='image-blog-container-secondary'>
           <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
@@ -137,8 +145,9 @@ export default class Blog extends Component {
           </div>
         </div>
         </div>
+        </Link>
 
-
+<Link to='/blog-1' >
         <div className='blog-secondary-container'>
           <div className='image-blog-container-secondary'>
           <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
@@ -159,7 +168,7 @@ export default class Blog extends Component {
           </div>
         </div>
         </div>
-
+        </Link>
 
 
         </div>

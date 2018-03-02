@@ -11,8 +11,8 @@ export default class HomePage extends Component {
                         <h1 className="content__title">World's first AI prediction blockchain</h1>
                         <p className="content__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo. Dolores magnam animi facere error, eos corporis eum incidunt magni vero commodi, laborum non! Inventore eum omnis veniam consectetur accusamus!</p>
                         <div className='home-button-flex'>
-                        <Link to='/learn' style={{ textDecoration: 'none' }} ><a href='./learnMore.html'><div className="learn-more-button"><div className='learn-more'>LEARN MORE</div></div></a></Link>
-                        <Link to='/roadmap' style={{ textDecoration: 'none' }} ><a href='./roadmap.html'><div className="roadmap-button"><div className='road-map'>ROADMAP</div></div></a></Link>
+                        <Link to='/learn' ><a href='./learnMore.html'><div className="learn-more-button"><div className='learn-more'>LEARN MORE</div></div></a></Link>
+                        <Link to='/roadmap' ><a href='./roadmap.html'><div className="roadmap-button"><div className='road-map'>ROADMAP</div></div></a></Link>
                         </div>
                     </div>
                     <div className="column column__two-thirds">
