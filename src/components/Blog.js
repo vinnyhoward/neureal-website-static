@@ -28,7 +28,139 @@ export default class Blog extends Component {
         </div>
         </div>
 
+        <div className='blog-secondary-grid-container'>
+
+
         <div className='blog-secondary-container'>
+          <div className='image-blog-container-secondary'>
+          <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
+          </div>
+        <div className='blog-column-secondary'>
+          <div className='blog-detail-container-secondary'>
+            <div className='title-blog-secondary'>Sit amet consectetur adipisicing elit?</div>
+            <div className='caption-blog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quas dolore saepe inventore </div>
+            <div className='creator-blog'>
+            <div className='flex-author'>
+              <img className='author-of-blog' src={require('../images/team/kyler.jpg')} alt='author' />
+            <div className='flex-date'>
+              <div className='author-name'>Kyler Anderson</div>
+              <div className='author-date-posted'>March 1</div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div className='blog-secondary-container'>
+          <div className='image-blog-container-secondary'>
+          <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
+          </div>
+        <div className='blog-column-secondary'>
+          <div className='blog-detail-container-secondary'>
+            <div className='title-blog-secondary'>Sit amet consectetur adipisicing elit?</div>
+            <div className='caption-blog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quas dolore saepe inventore </div>
+            <div className='creator-blog'>
+            <div className='flex-author'>
+              <img className='author-of-blog' src={require('../images/team/kyler.jpg')} alt='author' />
+            <div className='flex-date'>
+              <div className='author-name'>Kyler Anderson</div>
+              <div className='author-date-posted'>March 1</div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+        <div className='blog-secondary-container'>
+          <div className='image-blog-container-secondary'>
+          <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
+          </div>
+        <div className='blog-column-secondary'>
+          <div className='blog-detail-container-secondary'>
+            <div className='title-blog-secondary'>Sit amet consectetur adipisicing elit?</div>
+            <div className='caption-blog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quas dolore saepe inventore </div>
+            <div className='creator-blog'>
+            <div className='flex-author'>
+              <img className='author-of-blog' src={require('../images/team/kyler.jpg')} alt='author' />
+            <div className='flex-date'>
+              <div className='author-name'>Kyler Anderson</div>
+              <div className='author-date-posted'>March 1</div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+                <div className='blog-secondary-container'>
+          <div className='image-blog-container-secondary'>
+          <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
+          </div>
+        <div className='blog-column-secondary'>
+          <div className='blog-detail-container-secondary'>
+            <div className='title-blog-secondary'>Sit amet consectetur adipisicing elit?</div>
+            <div className='caption-blog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quas dolore saepe inventore </div>
+            <div className='creator-blog'>
+            <div className='flex-author'>
+              <img className='author-of-blog' src={require('../images/team/kyler.jpg')} alt='author' />
+            <div className='flex-date'>
+              <div className='author-name'>Kyler Anderson</div>
+              <div className='author-date-posted'>March 1</div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+        <div className='blog-secondary-container'>
+          <div className='image-blog-container-secondary'>
+          <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
+          </div>
+        <div className='blog-column-secondary'>
+          <div className='blog-detail-container-secondary'>
+            <div className='title-blog-secondary'>Sit amet consectetur adipisicing elit?</div>
+            <div className='caption-blog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quas dolore saepe inventore </div>
+            <div className='creator-blog'>
+            <div className='flex-author'>
+              <img className='author-of-blog' src={require('../images/team/kyler.jpg')} alt='author' />
+            <div className='flex-date'>
+              <div className='author-name'>Kyler Anderson</div>
+              <div className='author-date-posted'>March 1</div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+        <div className='blog-secondary-container'>
+          <div className='image-blog-container-secondary'>
+          <img className='img-secondary-blog' src={require('../images/imageTest.jpeg')} alt="blog post"/>
+          </div>
+        <div className='blog-column-secondary'>
+          <div className='blog-detail-container-secondary'>
+            <div className='title-blog-secondary'>Sit amet consectetur adipisicing elit?</div>
+            <div className='caption-blog'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quas dolore saepe inventore </div>
+            <div className='creator-blog'>
+            <div className='flex-author'>
+              <img className='author-of-blog' src={require('../images/team/kyler.jpg')} alt='author' />
+            <div className='flex-date'>
+              <div className='author-name'>Kyler Anderson</div>
+              <div className='author-date-posted'>March 1</div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
 
         </div>
           </div>
