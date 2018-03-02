@@ -9,6 +9,7 @@ import LearnMore from './components/LearnMore.js';
 import Footer from './components/Footer.js';
 import RoadMap from './components/RoadMap.js';
 import Team from './components/Team.js';
+import Blog from './components/Blog.js';
 class App extends Component {
   render () {
     return (
@@ -22,11 +23,12 @@ class App extends Component {
           <Route component={ HomePage } exact path="/"/>
           <Route component={ LearnMore } path="/learn"/>
           <Route component={ RoadMap } path="/roadmap"/>
+          <Route component={ Blog } path="/blog"/>
           <Route component={ Team } path="/team"/>
           </Switch>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
     </Router>
     )

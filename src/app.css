@@ -172,6 +172,7 @@ transform: translate( 30px, -30px );
 
 .content {
     width: 100%;
+    padding-top: 35px;
 }
 
 .sidebar-image {
@@ -188,12 +189,12 @@ transform: translate( 30px, -30px );
 }
 
 .content__title {
-    color: rgb(66, 66, 66);
+    color: rgba(0, 0, 0, 0.9);
     margin-bottom: 15px;
 
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .sub-title {
@@ -219,12 +220,14 @@ transform: translate( 30px, -30px );
 }
 
 .content__paragraph {
-  color: rgb(20, 20, 20);
+  color: rgba(20, 20, 20, 0.709);
 
+    padding-top: 10px;
+    padding-bottom: 15px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .learn-more-button {
@@ -616,27 +619,167 @@ margin: 17.5px;
   right: 60px;
 }
 
-@media (max-width: 1000px) {
-  .flex-team {
-    display: grid;
-    
-    grid-template-columns: repeat(2, 1fr); 
+/* ========================================================================== */
+/* Blog Section */
+/* ========================================================================== */
+.blog-column__two-thirds {
+    width: 65%;
 }
+
+.blog-column__one-thirds {
+    width: 35%;
+}
+
+.blog-header-container {
+    display: flex;
+}
+
+.title-blog {
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.caption-blog {
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.creator-blog {
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 15px;
+
+}
+
+.image-blog-container {
+    padding-top: 50px;
+    margin: 20px;
+}
+
+.img-main-blog {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-detail-container {
+    padding-top: 50px;
+    margin: 20px;
+}
+
+.author-of-blog {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+.author-name {
+    color: #00a8e1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.author-date-posted {    
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.flex-author {
+    display: flex;
+}
+
+.flex-date {
+    padding: 5px;
+    padding-left: 7.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+.blog-column__two-thirds {
+    width: 100%;
+}
+
+.blog-column__one-thirds {
+    width: 100%;
+}
+.blog-header-container {
+    display: flex;
+    flex-direction: column;
+}
+.blog-detail-container {
+    padding-top: 10px;
+    margin: 10px;
+}
+.image-blog-container {
+    padding-top: 10px;
+    margin: 10px;
+}
+.flex-team {
+display: grid;
+
+grid-template-columns: repeat(2, 1fr); 
+}
+
 
 }
 
   @media (max-width: 805px) {
 
-    .grid p {
-      padding-top: 10px;
-      padding-bottom: 20px;
-      color: rgb(30, 30, 30);
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-      letter-spacing: 1px;
-      font-size: 16pt;
-  }
+.title-blog {
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 15px;
 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.caption-blog {
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.grid p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(30, 30, 30);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16pt;
+}
+  .author-name {
+    color: #00a8e1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.author-date-posted {    
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
 
 .learn-more-padding {
     padding-top: 20px;
