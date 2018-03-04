@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
 import './app.css';
-import { Router, Route, Switch, Link } from 'react-static'
+import { Router, Route, Switch, Link } from 'react-static';
+import SocialBar from './components/SocialBar';
 import NavigationBar from './components/NavigationBar';
 import MobileNav from './components/MobileNav';
 import HomePage from './components/HomePage.js';
@@ -16,6 +17,7 @@ class App extends Component {
     return (
       <Router>
       <div>
+          <SocialBar />
       <div className="main">
         <div className="squeeze">
           <NavigationBar />
@@ -26,7 +28,6 @@ class App extends Component {
           <Route component={ RoadMap } path="/roadmap"/>
           <Route component={ Blog } path="/blog"/>
           <Route component={ Team } path="/team"/>
-
           <Route component={ BlogPosts } path="/blog-1"/>
           </Switch>
         </div>

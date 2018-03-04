@@ -6,11 +6,13 @@ export default class MobileNav extends Component {
     sideMenuOpen: false,
     hamburgerAnimate: false
    }
-
+   
   slideOpenSideMenu = () => {
+
     this.setState({
       sideMenuOpen: !this.state.sideMenuOpen
     })
+  
   }
 
   animateHamburger = () => {
@@ -18,6 +20,7 @@ export default class MobileNav extends Component {
       hamburgerAnimate: !this.state.hamburgerAnimate
     })
   }
+  
 
   render() {
     return (
@@ -37,12 +40,14 @@ export default class MobileNav extends Component {
                     <li><a>Whitepaper</a></li>
                     <li><img className='sidebar-image' src='https://s18.postimg.org/5js9ba92h/prediction-side-bar-asset.png' alt="logo" /></li>
                 </ul>
-                <ul className="social-icon">
-                    <li><a><i className="fab fa-facebook-f"></i></a></li>
-                    <li><a><i className="fab fa-twitter"></i></a></li>
-                    <li><a><i className="fab fa-google-plus-g"></i></a></li>
-                    <li><a><i className="fas fa-rss"></i></a></li>
-                </ul>
+                <div className="social-icon">
+                <a className='git-mob ion-social-github' href=""></a>
+                <a className='fb-mob ion-social-facebook' href=""></a>
+                <a className='rdt-mob ion-social-reddit' href=""></a>
+                <a className='twi-mob ion-social-twitter' href=""></a>
+                <a className='lnk-mob ion-social-linkedin' href=""></a>
+                <a className='you-mob ion-social-youtube' href=""></a>
+                </div>
             </div>
       </div>
     )
