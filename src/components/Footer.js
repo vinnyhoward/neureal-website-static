@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
+import EmailForm from './EmailForm';
+import { Link } from "react-router-dom";
 
-export default class Footer extends Component {
-  render() {
-    return (
-      <div>
-        <div className='footer-container'>
-            <div className='flex-social'>
-                <div className='community'>
-                    Join Our Community
-                </div>
-            </div>
+export default class Footer extends Component { render() { return (
+<div className="main-nav">
+  <div className='footer-background'>
+    <div className="squeeze">
+      <div className='footer-container'>
+        {/*
+        <Link to='/'>
+        <img src={require( '../images/logoAsset2.png')} alt="logo" className="logo" />
+        </Link> */}
+        <div className='community'>
+          <EmailForm />
         </div>
       </div>
-    )
-  }
-}
+    </div>
+  </div>
+</div>
+) } }

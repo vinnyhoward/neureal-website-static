@@ -11,17 +11,14 @@ export default class TeamModal extends Component {
       return null;
     }
     return (
-      <div style={ backDropStyle }>
-      <div style={ modalStyle }>
-      <div style={ footerStyle }>
-      <img src={ this.props.imageModal } alt="modal image"/>
-        { this.props.nameModal }
-        { this.props.roleModal }
-        { this.props.biographyModal }
-        <div onClick={ (e) => {this.onClose(e)} } >Close</div>
-        </div>
-        </div>
-      </div>
+<div style={ backDropStyle }>
+  <div style={ modalStyle }>
+    <div style={ footerStyle }>
+      <img src={ this.props.imageModal } alt="modal image" /> { this.props.nameModal } { this.props.roleModal } { this.props.biographyModal }
+      <div onClick={ (e)=> {this.onClose(e)} } >Close</div>
+    </div>
+  </div>
+</div>
     )
   }
 }

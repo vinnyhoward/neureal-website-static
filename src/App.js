@@ -15,26 +15,26 @@ import BlogPosts from './components/posts/BlogPosts';
 class App extends Component {
   render () {
     return (
-      <Router>
-      <div>
-          <SocialBar />
-      <div className="main">
-        <div className="squeeze">
-          <NavigationBar />
-          <MobileNav />
-            <Switch>
-          <Route component={ HomePage } exact path="/"/>
-          <Route component={ LearnMore } path="/learn"/>
-          <Route component={ RoadMap } path="/roadmap"/>
-          <Route component={ Blog } path="/blog"/>
-          <Route component={ Team } path="/team"/>
-          <Route component={ BlogPosts } path="/blog-1"/>
-          </Switch>
-        </div>
+<Router>
+  <div>
+    <SocialBar />
+    <div className="main">
+      <div className="squeeze">
+        <NavigationBar />
+        <MobileNav />
+        <Switch>
+          <Route component={ HomePage } exact path="/" />
+          <Route component={ LearnMore } path="/learn" />
+          <Route component={ RoadMap } path="/roadmap" />
+          <Route component={ Blog } path="/blog" />
+          <Route component={ Team } path="/team" />
+          <Route component={ BlogPosts } path="/blog-1" />
+        </Switch>
       </div>
-      {/* <Footer /> */}
     </div>
-    </Router>
+    <Footer />
+  </div>
+</Router>
     )
   }
 }
