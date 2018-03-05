@@ -27,7 +27,7 @@ state = {
         onChange={ (e)=> { this.setState({lNameValue: e.target.value}); } } />
     </label>
     <div className='subscribe-button'>
-      <div className='subscribe-text' type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button">Subscribe Now</div>
+      <div className='subscribe-text' type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button">SUBSCRIBE NOW</div>
     </div>
   </form>
 </div>

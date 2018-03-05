@@ -7,10 +7,11 @@ export default class Footer extends Component { render() { return (
   <div className='footer-background'>
     <div className="squeeze">
       <div className='footer-container'>
-        {/*
+        <div className='logo-footer-container'>
         <Link to='/'>
-        <img src={require( '../images/logoAsset2.png')} alt="logo" className="logo" />
-        </Link> */}
+        <img src={require( '../images/logoAsset2.png')} alt="logo" className="logo-footer" />
+        </Link>
+        </div>
         <div className='community'>
           <EmailForm />
         </div>
