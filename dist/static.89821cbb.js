@@ -540,6 +540,10 @@ var MobileNav = function (_Component) {
       _this.setState({
         hamburgerAnimate: !_this.state.hamburgerAnimate
       });
+    }, _this.closeMenu = function () {
+      _this.setState({
+        sideMenuOpen: false
+      });
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
@@ -561,7 +565,10 @@ var MobileNav = function (_Component) {
           { className: this.state.sideMenuOpen ? 'sidebar-active' : 'sidebar' },
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/' },
+            {
+              to: '/',
+              onClick: this.closeMenu.bind(this)
+            },
             _react2.default.createElement(
               'a',
               { href: './index.html' },
@@ -573,7 +580,10 @@ var MobileNav = function (_Component) {
             { className: 'menu' },
             _react2.default.createElement(
               _reactRouterDom.Link,
-              { to: '/blog' },
+              {
+                to: '/blog',
+                onClick: this.closeMenu.bind(this)
+              },
               _react2.default.createElement(
                 'li',
                 null,
@@ -586,7 +596,10 @@ var MobileNav = function (_Component) {
             ),
             _react2.default.createElement(
               _reactRouterDom.Link,
-              { to: '/team' },
+              {
+                to: '/team',
+                onClick: this.closeMenu.bind(this)
+              },
               _react2.default.createElement(
                 'li',
                 null,
@@ -631,7 +644,11 @@ var MobileNav = function (_Component) {
             _react2.default.createElement('a', { className: 'lnk-mob ion-social-linkedin', href: '' }),
             _react2.default.createElement('a', { className: 'you-mob ion-social-youtube', href: '' })
           )
-        )
+        ),
+        _react2.default.createElement('div', {
+          className: this.state.sideMenuOpen ? 'background-mobile' : 'none',
+          onClick: this.closeMenu.bind(this)
+        })
       );
     }
   }]);
@@ -2303,4 +2320,4 @@ exports.default = BlogPosts;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.1c295b32.js.map
+//# sourceMappingURL=static.89821cbb.js.map

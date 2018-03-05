@@ -6,7 +6,7 @@ export default class MobileNav extends Component {
     sideMenuOpen: false,
     hamburgerAnimate: false
    }
-   
+
   slideOpenSideMenu = () => {
 
     this.setState({
@@ -21,6 +21,12 @@ export default class MobileNav extends Component {
     })
   }
   
+  closeMenu = () => {
+    this.setState({
+      sideMenuOpen: false
+    })
+  
+  }
 
   render() {
     return (
@@ -31,11 +37,24 @@ export default class MobileNav extends Component {
                 <span></span>
             </div>
             <div className={ this.state.sideMenuOpen ? 'sidebar-active' : 'sidebar' }>
-            <Link to='/'><a href='./index.html'><img src="https://s18.postimg.org/ui0z7yhqx/logo_Asset2.png" alt="logo" className="logo" /></a></Link>
+            <Link 
+             to='/'
+             onClick={ this.closeMenu.bind(this) }
+             >
+            <a href='./index.html'><img src="https://s18.postimg.org/ui0z7yhqx/logo_Asset2.png" alt="logo" className="logo" /></a>
+            </Link>
                 <ul className='menu'>
-                <Link to='/blog'><li><a>Blog</a></li></Link>
+                <Link 
+                to='/blog'
+                onClick={ this.closeMenu.bind(this) }
+                ><li><a>Blog</a></li>
+                </Link>
                     {/* <li><a>Transparency</a></li> */}
-                    <Link to='/team'><li><a href='./team.html'>Team</a></li></Link>
+                    <Link 
+                    to='/team'
+                    onClick={ this.closeMenu.bind(this) }
+                    ><li><a href='./team.html'>Team</a></li>
+                    </Link>
                     <li><a>Telegram</a></li>
                     <li><a>Whitepaper</a></li>
                     <li><img className='sidebar-image' src='https://s18.postimg.org/5js9ba92h/prediction-side-bar-asset.png' alt="logo" /></li>
@@ -49,6 +68,11 @@ export default class MobileNav extends Component {
                 <a className='you-mob ion-social-youtube' href=""></a>
                 </div>
             </div>
+          <div
+           className={ this.state.sideMenuOpen ? 'background-mobile' : 'none' }
+           onClick={ this.closeMenu.bind(this) }
+          >
+          </div>
       </div>
     )
   }
