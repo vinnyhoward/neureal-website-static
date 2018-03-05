@@ -176,6 +176,11 @@ padding: 40px 20px; */
     transition: .5s;
 }
 
+.nav-menu__item:hover {
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
 .nav-menu__item a {
     text-decoration: none;
     color: rgb(20, 20, 20);
@@ -327,7 +332,7 @@ transition: .5s; */
     border-radius: 5px;
 }
 
-div .learn-more-button:hover {
+.learn-more-button:hover {
     transition: all 0.3s ease 0s;
     background: radial-gradient(circle at center, #fff29d, #e4ac62);
 }
@@ -335,6 +340,9 @@ div .learn-more-button:hover {
 .learn-more a {
     color: black;
     text-decoration: none;
+}
+.learn-more:hover {
+    opacity: 0.75;
 }
 
 .roadmap-button {
@@ -724,8 +732,8 @@ box-shadow: 2px 5px 16px rgba(0, 0, 0, 0.182); */
 }
 
 .blog-detail-container-secondary {
-    padding-top: 10px;
-    margin-top: 10px;
+    /* padding-top: 10px;
+    margin-top: 10px; */
 }
 
 .image-blog-container-secondary {
@@ -1104,18 +1112,62 @@ padding-left: 10px;
     max-height: 30px;
     cursor: pointer;
     transition: .5s;
+    margin-bottom: 20px;
 }
 
 .logo-footer-container {
     display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-    padding-bottom: 175px;
+    padding-bottom: 105px;
     width: 50%;
 }
+
+.logo-footer-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/* ========================================================================== */
+
+/* Team Modal */
+
+/* ========================================================================== */
+
+.modal-background {
+    opacity: 0.5;
+    z-index: 1;
+    background-color: #aaa;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+}
+
+.modal-img {
+    opacity: 1;
+}
+
+.profile-background {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 450px;
+    background: #fff;
+}
+
 
 @media (max-width: 1000px) {
     .blog-column__two-thirds {

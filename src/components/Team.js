@@ -79,7 +79,6 @@ export default class Team extends Component {
         imageModal={jenImage}
         /> */}
 
-
         <div className="content-team">
     <div className="column column__title">
   <h2 className='team-title'>
