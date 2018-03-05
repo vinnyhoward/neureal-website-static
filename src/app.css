@@ -13,11 +13,27 @@ body {
     src: url(https://gist.github.com/orangtanah/495dfd86de9118c52007de078cf66249.js);
 }
 
+@-webkit-keyframes subtleFade {
+    from {top:-200px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+@keyframes subtleFade {
+    from {top:-200px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    -webkit-animation-name: subtleFade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.55s; /* Chrome, Safari, Opera */
+    animation-name: subtleFade;
+    animation-duration: 0.55s;
 }
 
 .main {
@@ -241,9 +257,14 @@ transition: .5s; */
 .content__title {
     color: rgba(0, 0, 0, 0.9);
     margin-bottom: 15px;
+    margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 28px;
+    -webkit-animation-name: subtleFade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.75s; /* Chrome, Safari, Opera */
+    animation-name: subtleFade;
+    animation-duration: 0.75s;
 }
 
 .sub-title {
@@ -254,9 +275,9 @@ transition: .5s; */
     font-size: 14px;
 }
 
-.learn-more-padding {
+/* .learn-more-padding {
     padding-top: 200px;
-}
+} */
 
 .learn-more-flex {
     display: flex;
@@ -275,6 +296,10 @@ transition: .5s; */
     font-weight: 400;
     line-height: 20px;
     font-size: 14px;
+    -webkit-animation-name: subtleFade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.75s; /* Chrome, Safari, Opera */
+    animation-name: subtleFade;
+    animation-duration: 0.75s;
 }
 
 .learn-more-button {
@@ -295,8 +320,10 @@ transition: .5s; */
     color: rgb(30, 30, 30);
     font-size: 15px;
     cursor: pointer;
-    transition: background .5s;
-    transition: all 0.3s ease 0s;
+    -webkit-animation-name: subtleFade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.75s; /* Chrome, Safari, Opera */
+    animation-name: subtleFade;
+    animation-duration: 0.75s;
     border-radius: 5px;
 }
 
@@ -329,6 +356,10 @@ div .learn-more-button:hover {
     font-size: 15px;
     cursor: pointer;
     border-radius: 5px;
+    -webkit-animation-name: subtleFade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.75s; /* Chrome, Safari, Opera */
+    animation-name: subtleFade;
+    animation-duration: 0.75s;
 }
 
 .roadmap-button:hover {
@@ -352,6 +383,10 @@ div .learn-more-button:hover {
 
 .content__image {
     width: 100%;
+    -webkit-animation-name: subtleFade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.75s; /* Chrome, Safari, Opera */
+    animation-name: subtleFade;
+    animation-duration: 0.75s;
 }
 
 .flex {
@@ -1003,7 +1038,7 @@ padding-left: 10px;
 
 .subscribe-button {
     width: 400px;
-    height: 45px;
+    height: 50px;
     margin: 5px;
     color: rgba(0, 0, 0, 0.7);
     background: linear-gradient(#ecdc70, #e4ac62);
@@ -1014,10 +1049,6 @@ padding-left: 10px;
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 16px;
     cursor: pointer;
     transition: background .5s;
     transition: all 0.3s ease 0s;
@@ -1025,13 +1056,10 @@ padding-left: 10px;
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 16px;
-    cursor: pointer;
-    transition: background .5s;
-    transition: all 0.3s ease 0s;
     border-radius: 5px;
 }
 
-.subscribe-text div {
+.subscribe-text #mc-embedded-subscribe {
     color: #4cd1ff
 }
 
@@ -1046,6 +1074,20 @@ padding-left: 10px;
     outline: none;
     border: none;
     border-radius: 5px;
+}
+
+#mc-embedded-subscribe {
+    color: rgb(30, 30, 30);
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background .5s;
+    transition: all 0.3s ease 0s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
 }
 
 .join {
@@ -1100,7 +1142,31 @@ padding-left: 10px;
     }
 }
 
+@media (max-width: 840px) {
+    .logo-footer-container {
+        display: none;
+    }
+}
+
 @media (max-width: 805px) {
+    .subscribe-button {
+        width: 300px;
+    }
+    .subscribe-input {
+        width: 300px;
+    }
+
+    .footer-background {
+        max-height: 500;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
     .social-icons-container {
         display: none;
     }
@@ -1362,6 +1428,7 @@ border-radius: 50%; */
         padding-bottom: 30px;
     }
     .content__title {
+        
         width: 360px;
         text-align: left;
     }

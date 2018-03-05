@@ -174,7 +174,7 @@ var EmailForm = function (_Component) {
             { htmlFor: 'MERGE0' },
             _react2.default.createElement('input', { className: 'subscribe-input', placeholder: 'Email', type: 'email', name: 'EMAIL', id: 'MERGE0', value: this.state.emailValue,
               onChange: function onChange(e) {
-                _this2.setState({ emailValue: e.target.value });
+                _this2.setState({ emailValue: e.target.value });console.log(e.target.value);
               }, autoCapitalize: 'off', autoCorrect: 'off' })
           ),
           _react2.default.createElement(
@@ -196,11 +196,7 @@ var EmailForm = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'subscribe-button' },
-            _react2.default.createElement(
-              'div',
-              _defineProperty({ className: 'subscribe-text', type: 'submit', value: 'Subscribe', name: 'subscribe', id: 'mc-embedded-subscribe' }, 'className', 'button'),
-              'SUBSCRIBE NOW'
-            )
+            _react2.default.createElement('input', _defineProperty({ className: 'subscribe-text', type: 'submit', value: 'SUBSCRIBE NOW', name: 'subscribe', id: 'mc-embedded-subscribe' }, 'className', 'button'))
           )
         )
       );
@@ -211,7 +207,6 @@ var EmailForm = function (_Component) {
 }(_react.Component);
 
 exports.default = EmailForm;
-;
 
 /***/ }),
 /* 6 */
@@ -961,17 +956,22 @@ var LearnMore = function (_Component) {
                             _react2.default.createElement(
                                 "h1",
                                 { className: "content__title" },
-                                "What is Neureal?"
-                            ),
-                            _react2.default.createElement(
-                                "h3",
-                                { className: "sub-title" },
-                                " A limitless and infinitely scalable ability to forecast the future."
+                                "Breakthrough."
                             ),
                             _react2.default.createElement(
                                 "p",
                                 { className: "content__paragraph" },
-                                "That may seem a wild boast, but the nascent technologies of blockchain and end-to-end learning truly gives rise to endless possibilities that can be applied across nearly every industry, from NOAA to Lyft. Our architecture is capable of predicting a heart attack accurately enough to save a life; predict a hurricane accurately enough to move vulnerable people out of harm\u2019s way, predict traffic and human pattterns accurately enough for companies like Lyft to adjust actions and add to their bottom line. From complicated to simple, Neureal\u2019s impact is far-reaching."
+                                "Neureal\u2019s solution is a breakthrough because it is Limitless. The network\u2019s architecture allows users to ask Neureal about the future the same way we ask Google about the present and the past\u2013with the same confidence we have in the results of Google\u2019s algorithms and first page. This limitless ability creates not only the avoidance of bad things, but the ability to be a first-mover\u2013true time travelers who can see different possible futures, make informed decisions to affect the present through actions, and impact the future one decision at a time. Whether users are companies or governments or individuals, actions based on accurate predictions will have profound impacts across every industry, topic, and social good."
+                            ),
+                            _react2.default.createElement(
+                                "h1",
+                                { className: "content__title" },
+                                "Impact."
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                { className: "content__paragraph" },
+                                "We are giving everyone the ability to matter, to make a difference in the world on a grand scale. Users will be able to predict anything they\u2019re passionate about, from hurricane paths to the extinction of a species, to climate change, to medical advances. And, of course\u2026 Bitcoin prices."
                             )
                         )
                     ),
@@ -984,27 +984,22 @@ var LearnMore = function (_Component) {
                             _react2.default.createElement(
                                 "h1",
                                 { className: "content__title" },
-                                "How does it work?"
-                            ),
-                            _react2.default.createElement(
-                                "h3",
-                                { className: "sub-title" },
-                                " Miners set up prediction nodes."
+                                "Decentralized."
                             ),
                             _react2.default.createElement(
                                 "p",
                                 { className: "content__paragraph" },
-                                "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                                "There is no centralized system that can be more accurate\u2013not Facebook, not Google\u2013they cannot harness the massive and raw amounts of data needed to surpass what Neureal\u2019s architecture allows. We will always be one step ahead in size and accuracy. Bitcoin itself proved the power of community, creating a distributed computing platform that is 100,000 times faster than the largest centralized supercomputer in the world."
                             ),
                             _react2.default.createElement(
-                                "h3",
-                                { className: "sub-title" },
-                                " Nodes collect massive ammounts of data."
+                                "h1",
+                                { className: "content__title" },
+                                "Timeless."
                             ),
                             _react2.default.createElement(
                                 "p",
                                 { className: "content__paragraph" },
-                                "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                                "Data science continues to hit limitations. Neureal\u2019s ability to be agnostic to the algorithms used allows the system to be forever adaptable."
                             )
                         ),
                         _react2.default.createElement(
@@ -1028,27 +1023,37 @@ var LearnMore = function (_Component) {
                                 "div",
                                 { "learn-more-flex": true },
                                 _react2.default.createElement(
-                                    "h3",
-                                    { className: "sub-title" },
-                                    " Neureal protocal constructs the data in a hierarchical fashion allowing for accurate predictions using live data streams collected by the mining nodes."
+                                    "h1",
+                                    { className: "content__title" },
+                                    "Beyond AlphaGO."
                                 ),
                                 _react2.default.createElement(
                                     "p",
                                     { className: "content__paragraph" },
-                                    "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                                    "Humans are the unknown. Their patterns constantly change. The only way to account for this \u201Chuman-factor\u201D is by forecasting black swans, allowing humans to foresee outcomes and shift their actions, preventing the bad and capitalizing on the good."
                                 ),
                                 _react2.default.createElement(
                                     "div",
                                     { className: "learn-more-padding" },
                                     _react2.default.createElement(
-                                        "h3",
-                                        { className: "sub-title" },
-                                        " Selling the data. Neureal marketplace will allow miners to sell the data they've gathered to the public or to private entities allowing for a better user experience."
+                                        "h1",
+                                        { className: "content__title" },
+                                        "Efficiency of Data."
                                     ),
                                     _react2.default.createElement(
                                         "p",
                                         { className: "content__paragraph" },
-                                        "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                                        "By giving Neureal raw data, the AI is allowed the freedom to do the right thing for itself beyond the constraints of human decision-making on the front end."
+                                    ),
+                                    _react2.default.createElement(
+                                        "h1",
+                                        { className: "content__title" },
+                                        "Limitless. Without limits. Beyond today."
+                                    ),
+                                    _react2.default.createElement(
+                                        "p",
+                                        { className: "content__paragraph" },
+                                        "Neureal gives humans the power to become limitless by predicting the future of anything."
                                     )
                                 )
                             )
@@ -2432,4 +2437,4 @@ exports.default = BlogPosts;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.da91d6d2.js.map
+//# sourceMappingURL=static.84b0f4ee.js.map

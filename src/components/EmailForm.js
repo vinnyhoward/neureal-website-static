@@ -8,6 +8,7 @@ state = {
 }
 
   render() {
+
     return (
 <div className='email-form-flex'>
   <form action="https://neureal.us17.list-manage.com/subscribe/post" method="POST" noValidate>
@@ -16,7 +17,7 @@ state = {
     <input type="hidden" name="id" value="f47cd5d841" />
     <label htmlFor='MERGE0'>
       <input className='subscribe-input' placeholder="Email" type="email" name="EMAIL" id="MERGE0" value={this.state.emailValue}
-        onChange={ (e)=> { this.setState({emailValue: e.target.value}); } } autoCapitalize="off" autoCorrect="off" />
+        onChange={ (e)=> { this.setState({emailValue: e.target.value});     console.log(e.target.value); } } autoCapitalize="off" autoCorrect="off" />
     </label>
     <label htmlFor='MERGE1'>
       <input className='subscribe-input' placeholder="First Name" type="text" name="FNAME" id="MERGE1" value={this.state.fNameValue}
@@ -27,8 +28,8 @@ state = {
         onChange={ (e)=> { this.setState({lNameValue: e.target.value}); } } />
     </label>
     <div className='subscribe-button'>
-      <div className='subscribe-text' type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button">SUBSCRIBE NOW</div>
+      <input className='subscribe-text' type="submit" value="SUBSCRIBE NOW" name="subscribe" id="mc-embedded-subscribe" className="button" />
     </div>
   </form>
 </div>
-) } };
+) } }

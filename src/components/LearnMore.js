@@ -12,29 +12,42 @@ export default class LearnMore extends Component {
                 </div>
             </div>
             <div className="column column__one-third">
-                <h1 className="content__title">What is Neureal?</h1>
-                <h3 className='sub-title'> A limitless and infinitely scalable ability to forecast the future.</h3>
-                <p className="content__paragraph">That may seem a wild boast, but the nascent technologies of blockchain and end-to-end learning truly gives
-                    rise to endless possibilities that can be applied across nearly every industry, from NOAA to Lyft. Our
-                    architecture is capable of predicting a heart attack accurately enough to save a life; predict a hurricane
-                    accurately enough to move vulnerable people out of harm’s way, predict traffic and human pattterns accurately
-                    enough for companies like Lyft to adjust actions and add to their bottom line. From complicated to simple,
-                    Neureal’s impact is far-reaching.</p>
+                <h1 className="content__title">Breakthrough.</h1>
+                {/*
+                <h3 className='sub-title'></h3> */}
+                <p className="content__paragraph">Neureal’s solution is a breakthrough because it is Limitless. The network’s architecture allows users to
+                    ask Neureal about the future the same way we ask Google about the present and the past–with the same
+                    confidence we have in the results of Google’s algorithms and first page. This limitless ability creates
+                    not only the avoidance of bad things, but the ability to be a first-mover–true time travelers who can
+                    see different possible futures, make informed decisions to affect the present through actions, and impact
+                    the future one decision at a time. Whether users are companies or governments or individuals, actions
+                    based on accurate predictions will have profound impacts across every industry, topic, and social good.</p>
+                <h1 className="content__title">Impact.</h1>
+                {/*
+                <h3 className='sub-title'></h3> */}
+                <p className="content__paragraph">We are giving everyone the ability to matter, to make a difference in the world on a grand scale. Users will
+                    be able to predict anything they’re passionate about, from hurricane paths to the extinction of a species,
+                    to climate change, to medical advances. And, of course… Bitcoin prices.</p>
             </div>
         </div>
 
 
         <div className="flex">
             <div className="column column__one-third">
-                <h1 className="content__title">How does it work?</h1>
-                <h3 className='sub-title'> Miners set up prediction nodes.</h3>
-                <p className="content__paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-                    a galley of type and scrambled it to make a type specimen book.
+                <h1 className="content__title">Decentralized.</h1>
+                {/*
+                <h3 className='sub-title'>Decentralized.</h3> */}
+                <p className="content__paragraph">There is no centralized system that can be more accurate–not Facebook, not Google–they cannot harness the
+                    massive and raw amounts of data needed to surpass what Neureal’s architecture allows. We will always
+                    be one step ahead in size and accuracy. Bitcoin itself proved the power of community, creating a distributed
+                    computing platform that is 100,000 times faster than the largest centralized supercomputer in the world.
                 </p>
 
-                <h3 className='sub-title'> Nodes collect massive ammounts of data.</h3>
-                <p className="content__paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-                    a galley of type and scrambled it to make a type specimen book.
+                <h1 className="content__title">Timeless.</h1>
+                {/*
+                <h3 className='sub-title'>Decentralized.</h3> */}
+                <p className="content__paragraph">Data science continues to hit limitations. Neureal’s ability to be agnostic to the algorithms used allows
+                    the system to be forever adaptable.
                 </p>
             </div>
             <div className="column column__two-thirds">
@@ -49,16 +62,18 @@ export default class LearnMore extends Component {
             </div>
             <div className="column column__one-third">
                 <div learn-more-flex>
-                    <h3 className='sub-title'> Neureal protocal constructs the data in a hierarchical fashion allowing for accurate predictions using
-                        live data streams collected by the mining nodes.</h3>
-                    <p className="content__paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled it to make a type specimen book.
+                    <h1 className="content__title">Beyond AlphaGO.</h1>
+                    <p className="content__paragraph">Humans are the unknown. Their patterns constantly change. The only way to account for this “human-factor”
+                        is by forecasting black swans, allowing humans to foresee outcomes and shift their actions, preventing
+                        the bad and capitalizing on the good.
                     </p>
                     <div className='learn-more-padding'>
-                        <h3 className='sub-title'> Selling the data. Neureal marketplace will allow miners to sell the data they've gathered to the
-                            public or to private entities allowing for a better user experience.</h3>
-                        <p className="content__paragraph">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a type specimen book.
+                        <h1 className="content__title">Efficiency of Data.</h1>
+                        <p className="content__paragraph">By giving Neureal raw data, the AI is allowed the freedom to do the right thing for itself beyond
+                            the constraints of human decision-making on the front end.
+                        </p>
+                        <h1 className="content__title">Limitless. Without limits. Beyond today.</h1>
+                        <p className="content__paragraph">Neureal gives humans the power to become limitless by predicting the future of anything.
                         </p>
                     </div>
                 </div>
