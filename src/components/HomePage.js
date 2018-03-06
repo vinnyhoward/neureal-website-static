@@ -53,7 +53,7 @@ export default class HomePage extends Component {
             </div>
 
             <div className='info-box'>
-                <div className='info-box-containeer'>
+                <div className='info-box-container'>
                     <div className='.column-half'>
                         <h1 className="content__title">Proven</h1>
                         <p className="content__paragraph">Folding@home + Bitcoin. Community is far more powerful than individual effort, whether measured inside

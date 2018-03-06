@@ -7,15 +7,19 @@ import ReactModal from 'react-modal';
 export default class Team extends Component {
 
   state={ 
-    openJen: false,
-    openWil: false,
-    openKyler: false,
-    openJames: false,
-    openBrianNel: false,
-    openNick: false,
-    openBrianBag: false,
-    openJordan: false,
+    showModal: false
    }
+
+
+
+ 
+ handleOpenModal = () => {
+   this.setState({ showModal: true });
+ }
+ 
+ handleCloseModal = () => {
+   this.setState({ showModal: false });
+ }
 
   clickOpenJen = () => {
     this.setState({
@@ -80,6 +84,16 @@ export default class Team extends Component {
     const jenImage = require('../images/team/jen.jpg')
     return (
 <div>
+
+       <div>
+        <button onClick={this.handleOpenModal}>Trigger Modal</button>
+        <ReactModal 
+           isOpen={this.state.showModal}
+           contentLabel="Minimal Modal Example"
+        >
+          <button onClick={this.handleCloseModal}>Close Modal</button>
+        </ReactModal>
+      </div>
 
 <div className="content-team">
   <div className="column column__title">
