@@ -6,21 +6,24 @@ body {
     padding: 0;
 }
 
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
 @font-face {
     font-family: myFirstFont;
     src: url(https://gist.github.com/orangtanah/495dfd86de9118c52007de078cf66249.js);
 }
+
 @-webkit-keyframes subtleFade {
     from {top:-200px;opacity: 0;}
     to {top:0px;opacity:1;}
 }
 
+/* Add animation (Standard syntax) */
 @keyframes subtleFade {
     from {top:-200px;opacity: 0;}
     to {top:0px;opacity:1;}
 }
-@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
 
 * {
     padding: 0;
