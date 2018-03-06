@@ -1,35 +1,25 @@
 import React, { Component } from 'react';
 import Profile from './TeamProfile';
 import TeamModal from './TeamModal';
-import ReactModal from 'react-modal';
+import Modal from 'react-modal';
 
 
 export default class Team extends Component {
 
   state={ 
-    showModal: false
+    openJen: false,
+    openWil: false,
+    openKyler: false,
+    openJames: false,
+    openBrianNel: false,
+    openNick: false,
+    openBrianBag: false,
+    openJordan: false,
    }
-
-
-
- 
- handleOpenModal = () => {
-   this.setState({ showModal: true });
- }
- 
- handleCloseModal = () => {
-   this.setState({ showModal: false });
- }
 
   clickOpenJen = () => {
     this.setState({
-      openJen: true
-    })
-  }
-
-  clickCloseJen = () => {
-    this.setState({
-      openJen: false
+      openJen: !this.state.openJen
     })
   }
 
@@ -74,26 +64,22 @@ export default class Team extends Component {
       openJordan: !this.state.openJordan
     })
   }
-  afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    this.subtitle.style.color = '#f00';
-  }
+
 
 
   render() {
     const jenImage = require('../images/team/jen.jpg')
     return (
-<div>
+      <div>
 
-       <div>
-        <button onClick={this.handleOpenModal}>Trigger Modal</button>
-        <ReactModal 
-           isOpen={this.state.showModal}
-           contentLabel="Minimal Modal Example"
-        >
-          <button onClick={this.handleCloseModal}>Close Modal</button>
-        </ReactModal>
-      </div>
+        <TeamModal 
+        onClose={this.clickOpenJen}
+        clickOpen={ this.state.openJen }
+        nameModal={'Jenny Grayson'}
+        roleModal={'CEO'}
+        biographyModal={'20+ years executive-level. Multi-million dollar leadership. IP Specialist.'}
+        imageModal={jenImage}
+        />
 
 <div className="content-team">
   <div className="column column__title">
@@ -213,7 +199,6 @@ export default class Team extends Component {
         </div>
 
         <div className='team-icon-container'>
-          <a className='tw ion-social-twitter' href="https://twitter.com/oppcreator?lang=en"></a>
           <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/briannelson36/"></a>
         </div>
       </div>
@@ -261,7 +246,6 @@ export default class Team extends Component {
         </div>
 
         <div className='team-icon-container'>
-          <a className='tw ion-social-twitter' href="https://twitter.com/briansewellnow"></a>
           <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/"></a>
         </div>
 
@@ -298,14 +282,3 @@ export default class Team extends Component {
     )
   }
 }
-
-const customStyles = {
-  content : {
-    top                   : '50%',
-    left                  : '50%',
-    right                 : 'auto',
-    bottom                : 'auto',
-    marginRight           : '-50%',
-    transform             : 'translate(-50%, -50%)'
-  }
-};

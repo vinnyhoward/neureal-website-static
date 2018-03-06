@@ -11,6 +11,7 @@ import RoadMap from './components/RoadMap.js';
 import Team from './components/Team.js';
 import Blog from './components/Blog.js';
 import BlogPosts from './components/posts/BlogPosts';
+import News from './components/News';
 class App extends Component {
   render () {
     return (
@@ -26,6 +27,7 @@ class App extends Component {
           <Route component={ RoadMap } path="/roadmap" />
           <Route component={ Blog } path="/blog" />
           <Route component={ Team } path="/team" />
+          <Route component={ News } path="/news" />
           <Route component={ BlogPosts } path="/blog-1" />
         </Switch>
       </div>

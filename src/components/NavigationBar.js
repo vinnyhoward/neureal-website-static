@@ -21,7 +21,9 @@ export default class NavigationBar extends Component {
       </span>
       </Link>
 
+      <Link to='/news'>
       <span className="nav-menu__item">News</span>
+      </Link>
       {/*
       <span className="nav-menu__button">
         <span className="nav-menu__item-white">

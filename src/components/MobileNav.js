@@ -38,7 +38,7 @@ export default class MobileNav extends Component {
   </div>
   <div className={ this.state.sideMenuOpen ? 'sidebar-active' : 'sidebar' }>
     <Link to='/' onClick={ this.closeMenu.bind(this) }>
-    <a href='./index.html'>
+    <a>
       <img src="https://s18.postimg.org/ui0z7yhqx/logo_Asset2.png" alt="logo" className="logo" />
     </a>
     </Link>
@@ -50,7 +50,12 @@ export default class MobileNav extends Component {
       </Link>
       <Link to='/team' onClick={ this.closeMenu.bind(this) }>
       <li>
-        <a href='./team.html'>Team</a>
+        <a>Team</a>
+      </li>
+      </Link>
+      <Link to='/News' onClick={ this.closeMenu.bind(this) }>
+      <li>
+        <a>News</a>
       </li>
       </Link>
       <li>
@@ -64,6 +69,9 @@ export default class MobileNav extends Component {
       <a className='twi-mob ion-social-twitter' href="https://twitter.com/neurealai"></a>
       <a className='lnk-mob ion-social-linkedin' href="https://www.linkedin.com/company/neureal/"></a>
       <a className='you-mob ion-social-youtube' href="https://www.youtube.com/channel/UCkebLOaWk9vplZ6ZWLcbvtA"></a>
+      <a href="https://t.co/UiTeDbNd2i" >
+            <img className='telegram-logo' src={require( '../images/icons8-telegram-app-512.png')} alt="" />
+          </a>
     </div>
   </div>
   <div className={ this.state.sideMenuOpen ? 'background-mobile' : 'none' } onClick={ this.closeMenu.bind(this) }>

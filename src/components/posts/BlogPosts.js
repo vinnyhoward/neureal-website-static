@@ -51,7 +51,10 @@ export default class BlogPosts extends Component {
             at the time and has since built a team, made connections, and strategized to ensure the project’s success long
             after its Token Generation Event.
             <br/>
-            <br/> More information about our team can be found here: <a className='link-underline' href="https://docs.google.com/presentation/d/18aTxA6LZCq4ewikatIYKymD9ZRBjUtZMJueIEtWeQ-o/edit?usp=sharing" data-href="https://docs.google.com/presentation/d/18aTxA6LZCq4ewikatIYKymD9ZRBjUtZMJueIEtWeQ-o/edit?usp=sharing">(https://docs.google.com/presentation/d/18aTxA6LZCq4ewikatIYKymD9ZRBjUtZMJueIEtWeQ-o/edit?usp=sharing)</a>
+            <br/> More information about our team can be found here: 
+            <a className='link-underline' href="https://docs.google.com/presentation/d/18aTxA6LZCq4ewikatIYKymD9ZRBjUtZMJueIEtWeQ-o/edit?usp=sharing" 
+            data-href="https://docs.google.com/presentation/d/18aTxA6LZCq4ewikatIYKymD9ZRBjUtZMJueIEtWeQ-o/edit?usp=sharing">
+              <br/>Neureal Team and Advisors</a>
             <br/>
             <br/> Neureal is a platform, one which allows anyone to approach the platform with something they want to be predicted,
             data they believe is relevant to that prediction, and a reward for the most accurate predictors (in our currency
@@ -128,6 +131,7 @@ export default class BlogPosts extends Component {
             Link: <a className='link-underline' href="http://neureal.net/" data-href="http://neureal.net/">http://neureal.net/</a>
             <br/>
             <br/>
+            
           </div>
           <div className='creator-blog'>
           </div>

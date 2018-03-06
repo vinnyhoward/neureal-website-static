@@ -18,13 +18,11 @@ export default class HomePage extends Component {
                     enough for companies like Lyft to adjust actions and add to their bottom line. From complicated to simple,
                     Neureal’s impact is far-reaching.</p>
                 <div className='home-button-flex'>
-                    <Link to='/learn'>
-                    <a href='./learnMore.html'>
+                    <a href='https://docs.google.com/document/d/1kOJx7clG2V4TevhgwndRDievXpVaAciPzjmqGxI0CtA/edit#'>
                         <div className="learn-more-button">
                             <div className='learn-more'>WHITEPAPER</div>
                         </div>
                     </a>
-                    </Link>
                     <Link to='/roadmap'>
                     <a href='./roadmap.html'>
                         <div className="roadmap-button">

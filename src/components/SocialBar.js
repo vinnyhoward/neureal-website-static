@@ -16,6 +16,9 @@ const SocialBar = () => {
             <a className='twi-nav ion-social-twitter' href="https://twitter.com/neurealai"></a>
             <a className='lnk-nav ion-social-linkedin' href="https://www.linkedin.com/company/neureal/"></a>
             <a className='you-nav ion-social-youtube' href="https://www.youtube.com/channel/UCkebLOaWk9vplZ6ZWLcbvtA"></a>
+            <a href="https://t.co/UiTeDbNd2i" >
+            <img className='telegram-logo' src={require( '../images/icons8-telegram-app-512.png')} alt="" />
+          </a>
           </span>
         </div>
       </div>
