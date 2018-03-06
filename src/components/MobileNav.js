@@ -48,21 +48,11 @@ export default class MobileNav extends Component {
         <a>Blog</a>
       </li>
       </Link>
-      {/*
-      <li>
-        <a>Transparency</a>
-      </li> */}
       <Link to='/team' onClick={ this.closeMenu.bind(this) }>
       <li>
         <a href='./team.html'>Team</a>
       </li>
       </Link>
-      {/* <li>
-        <a>Telegram</a>
-      </li>
-      <li>
-        <a>Whitepaper</a>
-      </li> */}
       <li>
         <img className='sidebar-image' src='https://s18.postimg.org/5js9ba92h/prediction-side-bar-asset.png' alt="logo" />
       </li>

@@ -6,7 +6,6 @@ import SocialBar from './components/SocialBar';
 import NavigationBar from './components/NavigationBar';
 import MobileNav from './components/MobileNav';
 import HomePage from './components/HomePage.js';
-import LearnMore from './components/LearnMore.js';
 import Footer from './components/Footer.js';
 import RoadMap from './components/RoadMap.js';
 import Team from './components/Team.js';
@@ -16,7 +15,7 @@ class App extends Component {
   render () {
     return (
 <Router>
-  <div>
+  <div className='overlay-body'>
     <SocialBar />
     <div className="main">
       <div className="squeeze">
@@ -24,7 +23,6 @@ class App extends Component {
         <MobileNav />
         <Switch>
           <Route component={ HomePage } exact path="/" />
-          <Route component={ LearnMore } path="/learn" />
           <Route component={ RoadMap } path="/roadmap" />
           <Route component={ Blog } path="/blog" />
           <Route component={ Team } path="/team" />

@@ -8,12 +8,9 @@ export default class Footer extends Component { render() { return (
     <div className="squeeze">
       <div className='footer-container'>
         <div className='logo-footer-container'>
-        <Link to='/'>
+        {/* <Link to='/'>
         <img src={require( '../images/logoAsset2.png')} alt="logo" className="logo-footer" />
-        </Link>
-        <p>150 S State</p>
-        <p>#150</p>
-        <p>Salt Lake City, Ut 84111</p>
+        </Link> */}
         </div>
         <div className='community'>
           <EmailForm />

@@ -20,12 +20,14 @@ export default class NavigationBar extends Component {
         <a href='./team.html'>Team</a>
       </span>
       </Link>
-{/*       
-      <span className="nav-menu__item">Telegram</span>  */}
-      <span className="nav-menu__button"> 
+
+      <span className="nav-menu__item">News</span>
+      {/*
+      <span className="nav-menu__button">
         <span className="nav-menu__item-white">
-        <div>Telegram</div>
-        </span> </span>
+          <div>Telegram</div>
+        </span>
+      </span> */}
     </nav>
   </div>
   <Link to='/'>
