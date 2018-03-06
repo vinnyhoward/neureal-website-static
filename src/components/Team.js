@@ -75,9 +75,9 @@ export default class Team extends Component {
         <TeamModal 
         onClose={this.clickOpenJen}
         clickOpen={ this.state.openJen }
-        nameModal={'Jenny Grayson'}
+        nameModal={'Jen Grayson'}
         roleModal={'CEO'}
-        biographyModal={'20+ years executive-level. Multi-million dollar leadership. IP Specialist.'}
+        biographyModal={'Prior to being named one of the Top 8 Women in Crypto, Jen managed a multi-million dollar life insurance company during a highly lucrative and chaotic run-up of the industry, as well as managing morale, forecasting, and finances during the impacts of AIG’s multi-billion dollar crash, giving her a unique comfort level of leading from within the volatility of cryptocurrency. With over two decades of experience building and maintaining entrepreneurial organisms, from startups to established partnerships in numerous industries, her involvement at the onset of new development has repeatedly generated millions to bottom line. For the last decade, she specialized in intellectual property, working intimately with both NYT bestselling clients as well as smaller first-time movers into the publishing space to create, systematize, and deploy new income streams. Clients include New York Times and USA Today bestselling thriller, mystery, and fantasy writers, as well as international speakers, business coaches, and serial entre- preneurs. Her chaos management strategies identify and implement systems to enable the structures to exist beyond her involvement, ensuring their continued success is not based on singular individuals, but as a whole. Systems are everything. Strategic decisions are everything else. Nothing works without community'}
         imageModal={jenImage}
         />
 

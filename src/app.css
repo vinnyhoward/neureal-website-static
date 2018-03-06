@@ -41,13 +41,13 @@ z-index: -1;/*important*/
 }
 
 @-webkit-keyframes subtleFade {
-    from {top:-200px;opacity: 0;}
+    from {top:-300px;opacity: 0;}
     to {top:0px;opacity:1;}
 }
 
 /* Add animation (Standard syntax) */
 @keyframes subtleFade {
-    from {top:-200px;opacity: 0;}
+    from {top:-300px;opacity: 0;}
     to {top:0px;opacity:1;}
 }
 
@@ -1207,10 +1207,8 @@ padding-left: 10px;
 
 /* ========================================================================== */
 
-/* .modal-background {
-    opacity: 0.5;
+.modal-background {
     z-index: 1;
-    background-color: #aaa;
     position: absolute;
     height: 100%;
     top: 0;
@@ -1233,7 +1231,50 @@ padding-left: 10px;
     width: 300px;
     height: 450px;
     background: #fff;
-} */
+    top: 20%;
+    left: 30%;
+    overflow: hidden;
+}
+
+
+.profile-background div {
+    overflow: hidden;
+}
+
+
+.modal-style {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    max-width: 400px;
+    max-height:600px;
+    margin: 0 auto;
+
+    position: fixed; /* or absolute */
+    top: 15%;
+    left: 30%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.072);
+    -webkit-animation-name: subtleFade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.55s; /* Chrome, Safari, Opera */
+    animation-name: none;
+    animation-duration: 0.55s;
+    overflow-y: scroll;
+}
+.modal-detail-padding {  
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding: 20px;
+ }
+
+.close-modal {
+    -webkit-animation-name: subtleFade; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.55s; /* Chrome, Safari, Opera */
+    animation-name: none;
+    animation-duration: 0.55s;
+}
 
 
 @media (max-width: 1050px) {

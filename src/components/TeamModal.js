@@ -11,11 +11,16 @@ export default class TeamModal extends Component {
       return null;
     }
     return (
-<div style={ backDropStyle }>
-  <div style={ modalStyle }>
+<div className='modal-background ' onClick={ (e)=> {this.onClose(e)} } >
+  <div className='modal-style'>
+      <img src={ this.props.imageModal } alt="modal image" /> 
+      <div className='modal-detail-padding'>
+      <div className='team-name'>{ this.props.nameModal }</div> 
+      <div className='team-role'>{ this.props.roleModal }</div> 
+      <div className='biography'>{ this.props.biographyModal }</div>
+      </div>
     <div style={ footerStyle }>
-      <img src={ this.props.imageModal } alt="modal image" /> { this.props.nameModal } { this.props.roleModal } { this.props.biographyModal }
-      <div onClick={ (e)=> {this.onClose(e)} } >Close</div>
+      {/* <div className='close-modal' onClick={ (e)=> {this.onClose(e)} } >Close</div> */}
     </div>
   </div>
 </div>
@@ -36,7 +41,7 @@ const modalStyle = {
   backgroundColor: '#fff',
   borderRadius: 5,
   maxWidth: 500,
-  minHeight: 300,
+  minHeight: 500,
   margin: '0 auto',
   padding: 30,
   position: 'relative'
