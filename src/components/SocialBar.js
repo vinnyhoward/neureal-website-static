@@ -10,7 +10,7 @@ const SocialBar = () => {
           <span className='social-icons-container'>
             <a className='email-nav ion-email' href="mailto:info@neureal.net"></a>
             <p>info@neureal.net</p>
-            <a className='git-nav ion-social-github' href="https://github.com/neureal"></a>
+            <a className='git-nav ion-social-github' href=""></a>
             <a className='fb-nav ion-social-facebook' href="https://github.com/neureal"></a>
             <a className='rdt-nav ion-social-reddit' href="https://www.reddit.com/r/NeuralNetwork/"></a>
             <a className='twi-nav ion-social-twitter' href="https://twitter.com/neurealai"></a>
