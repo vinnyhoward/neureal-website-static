@@ -11,10 +11,10 @@ export default class TeamModal extends Component {
       return null;
     }
     return (
-<div className='modal-background' onClick={ (e)=> {this.onClose(e)} }>
-  <div className='profile-background'>
+<div style={ backDropStyle }>
+  <div style={ modalStyle }>
     <div style={ footerStyle }>
-      <img className='modal-img' src={ this.props.imageModal } alt="modal image" /> { this.props.nameModal } { this.props.roleModal } { this.props.biographyModal }
+      <img src={ this.props.imageModal } alt="modal image" /> { this.props.nameModal } { this.props.roleModal } { this.props.biographyModal }
       <div onClick={ (e)=> {this.onClose(e)} } >Close</div>
     </div>
   </div>
@@ -23,7 +23,15 @@ export default class TeamModal extends Component {
   }
 }
 
-
+const backDropStyle = {
+  position: 'absolute',
+  top: 0,
+  bottom: 0,
+  left: 0,
+  right: 0,
+  backgroundColor: 'rgba(0,0,0,0.3)',
+  padding: 50
+};
 const modalStyle = {
   backgroundColor: '#fff',
   borderRadius: 5,

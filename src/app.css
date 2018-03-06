@@ -204,35 +204,35 @@ padding: 40px 20px; */
 }
 
 .nav-menu__item-white {
-    /* padding-left: 15px;
+    padding-left: 15px;
 padding-right: 15px;
 padding-top: 15px;
-transition: .5s; */
+transition: .5s;
 }
 
 .nav-menu__item-white div {
-    margin-left: 15px;
+    margin-left: 7.5px;
     display: inline-block;
     height: 45px;
     width: 175px;
     background: linear-gradient(#ecdc70, #e4ac62);
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.072);
     padding: 14px;
-    padding-left: 40px;
+    padding-left: 47px;
 }
 
-.nav-menu__item-white div:hover {
+/* .nav-menu__item-white div:hover {
     transition: all 0.3s ease 0s;
     background: radial-gradient(circle at center, #fff29d, #e4ac62);
-}
+} */
 
-.nav-menu__button:hover {
+/* .nav-menu__button:hover {
     background: linear-gradient(#e8e8e8, #979797);
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: linear;
     transition-delay: initial;
-}
+} */
 
 .telegram-icon {
     display: inline-block;
@@ -771,7 +771,7 @@ box-shadow: 2px 5px 16px rgba(0, 0, 0, 0.182); */
     width: 270px;
     border-radius: 5px;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .flex-team {
@@ -1140,7 +1140,7 @@ padding-left: 10px;
 
 /* ========================================================================== */
 
-.modal-background {
+/* .modal-background {
     opacity: 0.5;
     z-index: 1;
     background-color: #aaa;
@@ -1166,7 +1166,7 @@ padding-left: 10px;
     width: 300px;
     height: 450px;
     background: #fff;
-}
+} */
 
 
 @media (max-width: 1000px) {

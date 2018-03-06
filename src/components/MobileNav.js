@@ -57,23 +57,23 @@ export default class MobileNav extends Component {
         <a href='./team.html'>Team</a>
       </li>
       </Link>
-      <li>
+      {/* <li>
         <a>Telegram</a>
       </li>
       <li>
         <a>Whitepaper</a>
-      </li>
+      </li> */}
       <li>
         <img className='sidebar-image' src='https://s18.postimg.org/5js9ba92h/prediction-side-bar-asset.png' alt="logo" />
       </li>
     </ul>
     <div className="social-icon">
-      <a className='git-mob ion-social-github' href=""></a>
-      <a className='fb-mob ion-social-facebook' href=""></a>
-      <a className='rdt-mob ion-social-reddit' href=""></a>
-      <a className='twi-mob ion-social-twitter' href=""></a>
-      <a className='lnk-mob ion-social-linkedin' href=""></a>
-      <a className='you-mob ion-social-youtube' href=""></a>
+      <a className='git-mob ion-social-github' href="https://github.com/neureal"></a>
+      <a className='fb-mob ion-social-facebook' href="https://github.com/neureal"></a>
+      <a className='rdt-mob ion-social-reddit' href="https://www.reddit.com/r/NeuralNetwork/"></a>
+      <a className='twi-mob ion-social-twitter' href="https://twitter.com/neurealai"></a>
+      <a className='lnk-mob ion-social-linkedin' href="https://www.linkedin.com/company/neureal/"></a>
+      <a className='you-mob ion-social-youtube' href="https://www.youtube.com/channel/UCkebLOaWk9vplZ6ZWLcbvtA"></a>
     </div>
   </div>
   <div className={ this.state.sideMenuOpen ? 'background-mobile' : 'none' } onClick={ this.closeMenu.bind(this) }>

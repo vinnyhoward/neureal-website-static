@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Profile from './TeamProfile';
 import TeamModal from './TeamModal';
+import Modal from 'react-modal';
+
 
 export default class Team extends Component {
 
@@ -129,7 +131,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-          <a className='lk ion-social-linkedin' href=""></a>
+          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/wil-bown-b68bb718/"></a>
           </div>
 
           </div>
@@ -152,7 +154,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/"></a>
+          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/kyleranderson/"></a>
           </div>
 
           </div>
@@ -175,7 +177,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/"></a>
+          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jamesalton"></a>
           </div>
 
           </div>
@@ -198,8 +200,8 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-          <a className='tw ion-social-twitter' href="https://www.linkedin.com/in/jengreyson/"></a>
-          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/"></a>
+          <a className='tw ion-social-twitter' href="https://twitter.com/oppcreator?lang=en"></a>
+          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/briannelson36/"></a>
           </div>
           </div>
  
@@ -221,7 +223,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/"></a>
+          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/"></a>
           </div>
 
           </div>
@@ -244,8 +246,8 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-          <a className='tw ion-social-twitter' href="https://www.linkedin.com/in/jengreyson/"></a>
-          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/"></a>
+          <a className='tw ion-social-twitter' href="https://twitter.com/briansewellnow"></a>
+          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/"></a>
           </div>
 
           </div>
@@ -268,7 +270,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/"></a>
+          <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jordan-miller-636724b/"></a>
           </div>
 
           </div>
