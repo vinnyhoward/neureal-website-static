@@ -24,7 +24,7 @@ export default class NavigationBar extends Component {
       <span className="nav-menu__item">Telegram</span>  */}
       <span className="nav-menu__button"> 
         <span className="nav-menu__item-white">
-          <div>Telegram</div>
+        <div>Telegram</div>
         </span> </span>
     </nav>
   </div>
