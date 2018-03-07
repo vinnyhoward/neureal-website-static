@@ -11,9 +11,9 @@ export default class TeamModal extends Component {
       return null;
     }
     return (
-<div className='modal-background ' onClick={ (e)=> {this.onClose(e)} } >
+<div className='modal-background' onClick={ (e)=> {this.onClose(e)} } >
   <div className='modal-style'>
-      <img src={ this.props.imageModal } alt="modal image" /> 
+      <img className='modal-image' src={ this.props.imageModal } alt="modal image" /> 
       <div className='modal-detail-padding'>
       <div className='team-name'>{ this.props.nameModal }</div> 
       <div className='team-role'>{ this.props.roleModal }</div> 
@@ -47,6 +47,5 @@ const modalStyle = {
   position: 'relative'
 };
 const footerStyle = {
-  position: 'absolute',
   bottom: 20
 };

@@ -104,3 +104,17 @@ export default class HomePage extends Component {
 //Learn more below this page
 //Modal
 
+//First Sentence
+//White paper Button Silver
+//Blog Post ReRoute
+//"As seen" Section
+//Call Uncle Andy
+//Whitepaper link
+//Learn more in blog
+
+
+//Seperate accountability advisors from main
+//Whitepaper pdf to HTML
+//More Team & Advisors members
+//Sale Section
+ 
