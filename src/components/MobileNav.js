@@ -39,7 +39,7 @@ export default class MobileNav extends Component {
   <div className={ this.state.sideMenuOpen ? 'sidebar-active' : 'sidebar' }>
     <Link to='/' onClick={ this.closeMenu.bind(this) }>
     <a>
-      <img src="https://s18.postimg.org/ui0z7yhqx/logo_Asset2.png" alt="logo" className="logo" />
+      <img src="https://image.ibb.co/mh7VHn/logo_Asset_White.png" alt="logo" className="logo" />
     </a>
     </Link>
     <ul className='menu'>
@@ -59,7 +59,7 @@ export default class MobileNav extends Component {
       </li>
       </Link>
       <li>
-        <img className='sidebar-image' src='https://s18.postimg.org/5js9ba92h/prediction-side-bar-asset.png' alt="logo" />
+        <img className='sidebar-image' src='https://image.ibb.co/bZ8LHn/prediction_side_bar_asset_copy.png' alt="logo" />
       </li>
     </ul>
     <div className="social-icon">

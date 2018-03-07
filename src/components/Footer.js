@@ -12,7 +12,7 @@ export default class Footer extends Component { render() { return (
         <img src={require( '../images/logoAsset2.png')} alt="logo" className="logo-footer" />
         </Link> */}
 
-          <img className='footer-asset'  src={require( '../images/footer-asset.png')} alt=""/>
+          <img className='footer-asset'  src="https://image.ibb.co/iZJbq7/footer_asset.png" alt=""/>
         <div className='community'>
           <EmailForm />
         </div>

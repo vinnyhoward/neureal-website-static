@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TeamModal from './TeamModal';
 const jenImage = 'https://image.ibb.co/iWPucn/jen.jpg'
-const wilImage = require('../images/team/wil.jpg');
+const wilImage = 'https://image.ibb.co/k0iy3S/wil.jpg';
 const jordanImage = require('../images/team/jordan.jpg');
 const kylerImage = require('../images/team/kyler.jpg');
 const jamesImage = require('../images/team/james.jpg');
@@ -192,7 +192,7 @@ export default class Team extends Component {
         <div className='team-box' onClick={ this.clickOpenWil } >
           <div className='team-box-container'>
             <div className='team-image-container'>
-              <img className='team-image' src={require( '../images/team/wil.jpg')} alt="team" />
+              <img className='team-image' src='https://image.ibb.co/k0iy3S/wil.jpg' alt="team" />
             </div>
             <div className='name-title-container'>
               <div className='team-name'>Wil Bown</div>

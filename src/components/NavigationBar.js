@@ -7,7 +7,7 @@ export default class NavigationBar extends Component {
 <div>
   <div className="navigation">
     <Link to='/'>
-    <img src="https://s18.postimg.org/dvjeyieex/blue_Asset_1.png" alt="logo" className="logo" />
+    <img src="https://image.ibb.co/dho4cn/logo_Asset_Blue.png" alt="logo" className="logo" />
     </Link>
     <nav className="nav-menu">
       <Link to='/blog-1'>
