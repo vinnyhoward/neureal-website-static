@@ -11,7 +11,11 @@ export default class HomePage extends Component {
         <div className="flex">
             <div className="column column__one-third">
                 <h1 className="content__title">What is Neureal?</h1>
-                <p className="content__paragraph">That may seem a wild boast, but the nascent technologies of blockchain and end-to-end learning truly gives
+                <p className="content__paragraph">
+                A limitless and infinitely scalable ability to forecast the future.
+                <br/>
+                <br/>
+                That may seem a wild boast, but the nascent technologies of blockchain and end-to-end learning truly gives
                     rise to endless possibilities that can be applied across nearly every industry, from NOAA to Lyft. Our
                     architecture is capable of predicting a heart attack accurately enough to save a life; predict a hurricane
                     accurately enough to move vulnerable people out of harm’s way, predict traffic and human patterns accurately
