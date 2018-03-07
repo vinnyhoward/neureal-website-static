@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Profile from './TeamProfile';
 import TeamModal from './TeamModal';
-import Modal from 'react-modal';
 const jenImage = require('../images/team/jen.jpg');
 const wilImage = require('../images/team/wil.jpg');
 const jordanImage = require('../images/team/jordan.jpg');
@@ -11,7 +10,7 @@ const brianImage = require('../images/team/brian.jpg');
 const nickImage = require('../images/team/nick.jpg');
 const brianSewImage = require('../images/team/brian_sewell.jpg');
 const ethanImage = require('../images/team/ethan.jpg');
-;
+
 
 export default class Team extends Component {
 

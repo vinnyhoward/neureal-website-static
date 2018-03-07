@@ -1216,6 +1216,17 @@ padding-left: 10px;
     opacity: 1;
 }
 
+.biography-modal {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    /* background: #00a8e1; */
+    padding-top: 5px;
+    text-align: left;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
 .profile-background {
     position: absolute;
     z-index: 2;
@@ -1259,9 +1270,9 @@ padding-left: 10px;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
     padding: 20px;
  }
 
@@ -1272,6 +1283,26 @@ padding-left: 10px;
     animation-duration: 0.55s;
 }
 
+.team-role-modal {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #00a8e1;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.team-name-modal {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.9);
+    padding-top: 5px;
+    text-align: left;
+}
 
 @media (max-width: 1050px) {
 
