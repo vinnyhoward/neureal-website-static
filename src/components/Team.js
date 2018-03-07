@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Profile from './TeamProfile';
 import TeamModal from './TeamModal';
-const jenImage = require('../images/team/jen.jpg');
+const jenImage = 'https://image.ibb.co/iWPucn/jen.jpg'
 const wilImage = require('../images/team/wil.jpg');
 const jordanImage = require('../images/team/jordan.jpg');
 const kylerImage = require('../images/team/kyler.jpg');
@@ -172,7 +171,7 @@ export default class Team extends Component {
         <div className='team-box' onClick={ this.clickOpenJen } >
           <div className='team-box-container' type="button" value="Show Modal">
             <div className='team-image-container'>
-              <img className='team-image' src={require( '../images/team/jen.jpg')} alt="team" />
+              <img className='team-image' src="https://image.ibb.co/iWPucn/jen.jpg" alt="team" />
             </div>
             <div className='name-title-container'>
               <div className='team-name'>Jen Greyson</div>
