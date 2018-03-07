@@ -1349,6 +1349,42 @@ padding-left: 10px;
     border-bottom: 1px solid rgb(215, 215, 215);
 }
 
+.news-title {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.9);
+
+    padding-bottom: 10px;
+}
+
+.news-caption {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.news-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.news-learn-more {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    color: #00a8e1;
+
+}
+
+
 
 .headphone{
     color: #00a8e1;
@@ -1401,7 +1437,7 @@ padding-left: 10px;
     padding-bottom: 30px;
     margin-left: 40px;
   
-    border-bottom: 1px solid rgb(215, 215, 215);
+    /* border-bottom: 1px solid rgb(215, 215, 215); */
 }
 .podcast-news-flex {
     display: flex;
@@ -1421,51 +1457,30 @@ padding-left: 10px;
     margin-top: 13px;
 } 
 
-.news-title {
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    color: rgba(0, 0, 0, 0.9);
-
-    padding-bottom: 10px;
+.video-column {
+width: 100%;
 }
 
-.news-caption {
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:400;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.5);
-    padding-bottom: 10px;
+.flex-video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    align-self: center;
+    justify-self: center;
+    grid-gap: 50px;
+    height: 100%;
 }
 
-.news-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}
-
-.news-learn-more {
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.9);
-    color: #00a8e1;
-}
-
-.learn-more-container {
-    /* position: absolute; */
-    /* bottom: 20px; */
-    /* right: 0px; */
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
-    align-content: center; */
-    padding-right: 20px;
+.media-container {
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.223);
 }
 @media (max-width: 1050px) {
 
