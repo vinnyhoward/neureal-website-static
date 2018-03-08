@@ -23,6 +23,7 @@ class App extends Component {
         <NavigationBar />
         <MobileNav />
         <Switch>
+          {/* <link rel="shortcut icon" href="https://image.ibb.co/huAEdS/favicon.png" /> */}
           <Route component={ HomePage } exact path="/" />
           <Route component={ RoadMap } path="/roadmap" />
           <Route component={ Blog } path="/blog" />
@@ -38,10 +39,5 @@ class App extends Component {
     )
   }
 }
-// ion-social-usd
 
-// ion-android-locate 
-
-// ion-android-checkbox-outline
-// ion-android-checkmark-circle
 export default hot(module)(App)
