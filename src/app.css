@@ -10,7 +10,6 @@
     to {top:0px;opacity:1;}
 }
 
-/* Add animation (Standard syntax) */
 @keyframes subtleFade {
     from {top:-300px;opacity: 0;}
     to {top:0px;opacity:1;}
