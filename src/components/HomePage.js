@@ -22,7 +22,7 @@ export default class HomePage extends Component {
                     enough for companies like Lyft to adjust actions and add to their bottom line. From complicated to simple,
                     Neureal’s impact is far-reaching.</p>
                 <div className='home-button-flex'>
-                    <a href='https://docs.google.com/document/d/1kOJx7clG2V4TevhgwndRDievXpVaAciPzjmqGxI0CtA/edit#'>
+                    <a href='https://docs.google.com/document/d/1kOJx7clG2V4TevhgwndRDievXpVaAciPzjmqGxI0CtA/edit#' target="_blank">
                         <div className="learn-more-button">
                             <div className='learn-more'>WHITEPAPER</div>
                         </div>
@@ -36,17 +36,22 @@ export default class HomePage extends Component {
                     </Link>
                 </div>
             </div>
+            
             <div className="column column__two-thirds">
                 <img src="https://image.ibb.co/eTnEcn/Comp_1.gif" alt="" className="content__image" />
             </div>
         </div>
+
+              <h1 className="content__quote">"Top 20 Most Promising Artificial Intelligence Solution Providers
+                <br/> 2017–CIOReview"</h1>
+            
 
         <div className="flex-columns">
 
             <div className='info-box'>
                 <div className='info-box-container'>
                     <div className='.column-half'>
-                        <h1 className="content__title">Accuracy</h1>
+                    <div className='info-subtitle-flex'><a className='info-icon  ion-android-locate ' /><h1 className="content__title">Accuracy</h1></div>
                         <p className="content__paragraph">Prediction is worthless without accuracy. Our ability to harness compute via blockchain technology,
                             coupled with the ability to create predictors out of novice users creates unsurpassed accuracy.
                         </p>
@@ -57,7 +62,7 @@ export default class HomePage extends Component {
             <div className='info-box'>
                 <div className='info-box-container'>
                     <div className='.column-half'>
-                        <h1 className="content__title">Proven</h1>
+                    <div className='info-subtitle-flex'><a className='info-icon  ion-android-checkbox-outline ' /><h1 className="content__title">Proven</h1></div>
                         <p className="content__paragraph">Folding@home + Bitcoin. Community is far more powerful than individual effort, whether measured inside
                             company structures or global neighborhoods.
                         </p>
@@ -69,7 +74,7 @@ export default class HomePage extends Component {
                 <div className='info-box'>
                     <div className='info-box-container'>
                         <div className='.column-half'>
-                            <h1 className="content__title">Incentivized</h1>
+                        <div className='info-subtitle-flex'><a className='info-icon  ion-card' /><h1 className="content__title">Incentivized</h1></div>
                             <p className="content__paragraph">Adding the ability to pay and get paid within an open-source governance incentivizes and rewards
                                 all participants, no matter what role they play inside the organism.
 
@@ -81,8 +86,20 @@ export default class HomePage extends Component {
         </div>
 
         <div className='column'>
-            <h1 className="content__quote">"Top 20 Most Promising Artificial Intelligence Solution Providers
-                <br/> 2017–CIOReview"</h1>
+                <h1 className="as-seen-caption">As seen in</h1>
+
+                <div className='as-seen-container'>
+                <img className='as-seen-image' src='https://image.ibb.co/n2m6Q7/medium.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/eFFNyS/bitcoin.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/eFZMsn/usa_weekly.jpg' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/eaNKdS/steemit.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/hBtsyS/chippin.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/jTEbQ7/cointele.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/eWKnXn/value.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/nHRO57/future.jpg' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/cwgqk7/decentral_market.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/d5HD57/cryptoknight.jpg' alt="team" />
+                </div>
         </div>
         <div className="grid">
             <div className='video-container'>

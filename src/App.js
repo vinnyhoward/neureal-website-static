@@ -38,5 +38,10 @@ class App extends Component {
     )
   }
 }
+// ion-social-usd
 
+// ion-android-locate 
+
+// ion-android-checkbox-outline
+// ion-android-checkmark-circle
 export default hot(module)(App)

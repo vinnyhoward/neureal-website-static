@@ -335,7 +335,7 @@ export default class Team extends Component {
             </div>
             <div className='name-title-container'>
               <div className='team-name'>Ethan Erkiletian</div>
-              <div className='team-role'>Former radio talk show host | blockchain educator and advisor.</div>
+              <div className='team-role'>Blockchain educator and advisor.</div>
             </div>
 
             <div className='biography'>Former radio talk show host, blockchain educator and advisor.</div>

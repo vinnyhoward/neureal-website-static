@@ -10,13 +10,13 @@ const SocialBar = () => {
           <span className='social-icons-container'>
             <a className='email-nav ion-email' href="mailto:info@neureal.net"></a>
             <p>info@neureal.net</p>
-            <a className='git-nav ion-social-github' href="https://github.com/neureal"></a>
-            <a className='fb-nav ion-social-facebook' href="https://github.com/neureal"></a>
-            <a className='rdt-nav ion-social-reddit' href="https://www.reddit.com/r/NeuralNetwork/"></a>
-            <a className='twi-nav ion-social-twitter' href="https://twitter.com/neurealai"></a>
-            <a className='lnk-nav ion-social-linkedin' href="https://www.linkedin.com/company/neureal/"></a>
-            <a className='you-nav ion-social-youtube' href="https://www.youtube.com/channel/UCkebLOaWk9vplZ6ZWLcbvtA"></a>
-            <a href="https://t.co/UiTeDbNd2i" >
+            <a className='git-nav ion-social-github' href="https://github.com/neureal" target="_blank"></a>
+            <a className='fb-nav ion-social-facebook' href="https://github.com/neureal" target="_blank"></a>
+            <a className='rdt-nav ion-social-reddit' href="https://www.reddit.com/r/NeuralNetwork/" target="_blank"></a>
+            <a className='twi-nav ion-social-twitter' href="https://twitter.com/neurealai" target="_blank"></a>
+            <a className='lnk-nav ion-social-linkedin' href="https://www.linkedin.com/company/neureal/" target="_blank"></a>
+            <a className='you-nav ion-social-youtube' href="https://www.youtube.com/channel/UCkebLOaWk9vplZ6ZWLcbvtA" target="_blank"></a>
+            <a href="https://t.co/UiTeDbNd2i" target="_blank">
             <img className='telegram-logo' src={require( '../images/icons8-telegram-app-512.png')} alt="" />
           </a>
           </span>

@@ -1,4 +1,4 @@
-@import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 @font-face {
     font-family: myFirstFont;
@@ -279,7 +279,8 @@ transition: .5s;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .sub-title {
@@ -782,7 +783,8 @@ transition: .5s;
     margin: 15px;
     border-radius: 5px;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
-    /* cursor: pointer; */
+    cursor: pointer;
+    /* border-bottom: 1px solid #d0d0d0 */
 }
 
 .info-box-container {
@@ -792,6 +794,11 @@ transition: .5s;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.info-subtitle-flex {
+display: flex; 
+flex-direction: row;
 }
 
 .padding-header-section {
@@ -1076,6 +1083,17 @@ padding-left: 10px;
     margin-right: 6.5px;
     cursor: pointer;
 }
+
+.info-icon {
+    /* background: linear-gradient(#f2d938,  #f2c223); */
+    color: #00a8e1;
+    font-size: 28px;
+    /* padding: 7.5px; */
+    /* padding-left: 12.5px; */
+    padding-right: 10px;
+    padding-top: 16px;
+}
+
 
 /* ========================================================================== */
 
@@ -1482,7 +1500,48 @@ width: 100%;
     background-color: #efefef;
     box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.223);
 }
+
+/* ========================================================================== */
+/* as seen by section */
+/* ========================================================================== */
+
+.as-seen-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 30px;
+    align-self: center;
+    justify-self: center;
+    grid-gap: 10px;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.as-seen-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+.as-seen-caption {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18pt;
+    width: 100%;
+    text-align: center; 
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 @media (max-width: 1050px) {
+
+    .as-seen-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .as-seen-image {
+        padding-top: 40px;
+    }
 
     .content__paragraph {
         text-align: left;
@@ -1533,10 +1592,24 @@ width: 100%;
 }
 
 @media (max-width: 840px) {
+
+    .as-seen-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .as-seen-image {
+        /* padding-top: 50px; */
+    }
     .background-mobile {
         display: block;
         opacity: 1;
 
+    }
+
+    .content__quote {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
     }
     
     .content__paragraph {
@@ -1573,6 +1646,10 @@ width: 100%;
 }
 
 @media (max-width: 805px) {
+    .padding-header-section {
+        padding-bottom: 10px;
+    }
+    
     .news-header {
         width: 100%;
         display: inline-block;
@@ -2162,6 +2239,12 @@ border-radius: 50%; */
 }
 
 @media (max-width: 600px) {
+    .content__quote {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
 
     .news-caption {
         overflow: hidden;
