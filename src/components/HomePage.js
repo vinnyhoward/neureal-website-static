@@ -87,7 +87,7 @@ export default class HomePage extends Component {
         <div className="grid">
             <div className='video-container'>
                 <video className='video-neureal' controls>
-                    <source src="https://jennygreyson.com/wp-content/uploads/2017/12/limitless-copy.mp4" type="video/mp4" /> Your browser does not support the video tag.
+                    <source src="http://jennygreyson.com/wp-content/uploads/2017/12/limitless-copy.mp4" type="video/mp4" /> Your browser does not support the video tag.
                 </video>
             </div>
         </div>

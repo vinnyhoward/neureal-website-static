@@ -1,5 +1,5 @@
 @import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 @font-face {
     font-family: myFirstFont;
     src: url(https://gist.github.com/orangtanah/495dfd86de9118c52007de078cf66249.js);
@@ -90,11 +90,11 @@ z-index: -1;/*important*/
 .background-mobile {
     padding: 10px;
     display: block;
-    opacity: 1;
+    opacity: 0;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vh;
+    width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.387);
     transition: .74s;
@@ -1533,7 +1533,12 @@ width: 100%;
 }
 
 @media (max-width: 840px) {
+    .background-mobile {
+        display: block;
+        opacity: 1;
 
+    }
+    
     .content__paragraph {
         text-align: left;
         /* font-size: 8pt; */

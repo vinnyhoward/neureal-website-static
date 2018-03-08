@@ -6,7 +6,7 @@ export default class RoadMap extends Component {
 <div>
   <div class="content">
     <div class="grid">
-      <img src="https://image.ibb.co/cxqviS/roadmap_blue_asset.png" alt="roadmap" class='roadmap-img' />
+      <img src={require( '../images/roadmap-blue-asset.png')} alt="roadmap" class='roadmap-img' />
     </div>
   </div>
 </div>
