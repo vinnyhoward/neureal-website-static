@@ -154,7 +154,7 @@ export default class Team extends Component {
   <TeamModal 
   onClose={this.clickOpenEthan} 
   clickOpen={ this.state.openEthan } 
-  nameModal={ 'Former radio talk show host, blockchain educator and advisor.'} 
+  nameModal={ 'Blockchain Educator | Advisor'} 
   roleModal={ 'Former radio talk show host | blockchain educator and advisor.'} 
   biographyModal={  "Ethan started out in the crypto space in 2012 when Bitcoin luminaries and economists at the time began educating him in regard to the potential of blockchain technology. Primarily focussed on the currency and money value proposition in Bitcoin, Ethan drove discussion on Bitcoin and blockchain tech amongst economists, technologists, industry leaders and entrepreneurs both as a method of learning more about the technology, and as a way to drive blockchain tech adoption among members of his audience and beyond. Ethan has since become an investor in cryptocurrency projects and has performed freelance consulting to major and minor concerns alike in respect to high level blockchain concepts."} imageModal={ethanImage} 
   />
@@ -184,7 +184,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/" target="_blank" ></a>
           </div>
 
         </div>
@@ -204,7 +204,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/wil-bown-b68bb718/"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/wil-bown-b68bb718/" target="_blank"></a>
           </div>
 
         </div>
@@ -224,7 +224,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jordan-miller-636724b/"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jordan-miller-636724b/" target="_blank"></a>
           </div>
 
         </div>
@@ -244,7 +244,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/kyleranderson/"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/kyleranderson/" target="_blank"> </a>
           </div>
 
         </div>
@@ -259,12 +259,12 @@ export default class Team extends Component {
               <div className='team-role'>Developer | Dev Ops, Ethereum</div>
             </div>
 
-            <div className='biography'>17+ years software development. Wrote the first completed Etherem contract. Bitcoin miner since 2011. Federal
+            <div className='biography'>17+ years software development. Wrote the first completed Ethereum contract. Bitcoin miner since 2011. Federal
               Government and Banking software solutions.</div>
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jamesalton"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jamesalton" target="_blank"></a>
           </div>
 
         </div>
@@ -283,7 +283,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/briannelson36/"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/briannelson36/" target="_blank"></a>
           </div>
         </div>
 
@@ -301,7 +301,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/" target="_blank"></a>
           </div>
 
         </div>
@@ -323,7 +323,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/" target="_blank"></a>
           </div>
 
         </div>
@@ -335,14 +335,14 @@ export default class Team extends Component {
             </div>
             <div className='name-title-container'>
               <div className='team-name'>Ethan Erkiletian</div>
-              <div className='team-role'>Blockchain educator and advisor.</div>
+              <div className='team-role'>Blockchain Educator | Advisor</div>
             </div>
 
             <div className='biography'>Former radio talk show host, blockchain educator and advisor.</div>
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/" target="_blank"></a>
           </div>
 
         </div>

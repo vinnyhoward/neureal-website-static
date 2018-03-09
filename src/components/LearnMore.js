@@ -40,7 +40,7 @@ export default class LearnMore extends Component {
                 <p className="content__paragraph">There is no centralized system that can be more accurate–not Facebook, not Google–they cannot harness the
                     massive and raw amounts of data needed to surpass what Neureal’s architecture allows. We will always
                     be one step ahead in size and accuracy. Bitcoin itself proved the power of community, creating a distributed
-                    computing platform that is 100,000 times faster than the largest centralized supercomputer in the world.
+                    computing platform that is 1,000,000 times faster than the largest centralized supercomputer in the world.
                 </p>
 
                 <h1 className="content__title">Timeless.</h1>

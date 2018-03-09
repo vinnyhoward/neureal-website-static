@@ -18,7 +18,7 @@ if (typeof document !== 'undefined') {
       </HashRouter>, document.getElementById('root'))
   }
 
-  
+
   // Render!
   render(App)
 }
