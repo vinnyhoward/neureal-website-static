@@ -5,7 +5,7 @@
 
 ## Quick Start
 
-1. Install the CLI:
+1. Install:
   ```bash
   $ cd neureal-website-static 
   # and
@@ -30,4 +30,3 @@
 Once you've installed and test driven sufficiently, you may want to:
 - [Read about the core concepts of React Static](/docs/concepts.md)
 - [Familiarize yourself with the API and all that is possible!](/docs/api.md)
-- [Join the slack organization!](https://react-chat-signup.herokuapp.com)

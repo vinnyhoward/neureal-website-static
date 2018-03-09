@@ -97,16 +97,16 @@ export default class HomePage extends Component {
             <h1 className="as-seen-caption">As seen in</h1>
 
             <div className='as-seen-container'>
-                <img className='as-seen-image' src='https://image.ibb.co/n2m6Q7/medium.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/eFFNyS/bitcoin.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/eFZMsn/usa_weekly.jpg' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/eaNKdS/steemit.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/hBtsyS/chippin.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/jTEbQ7/cointele.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/eWKnXn/value.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/nHRO57/future.jpg' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/cwgqk7/decentral_market.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/d5HD57/cryptoknight.jpg' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/fsb18S/medium_compressor.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/j30pv7/bitcoin_compressor.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/dz6Uv7/usa_weekly_compressor.jpg' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/jFog8S/steemit_compressor.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/b7fB8S/chippin_compressor.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/dQ6jTS/cointele_compressor.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/hQmJoS/value_compressor.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/hzJ3Nn/future_compressor.jpg' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/gmrev7/decentral_market_compressor.png' alt="team" />
+                <img className='as-seen-image' src='https://image.ibb.co/mAkNF7/cryptoknight_compressor.jpg' alt="team" />
             </div>
         </div>
         <div className="grid">
