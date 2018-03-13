@@ -11,8 +11,8 @@ const SocialBar = () => {
             <a className='email-nav ion-email' href="mailto:info@neureal.net"></a>
             <p>info@neureal.net</p>
             <a className='git-nav ion-social-github' href="https://github.com/neureal" target="_blank"></a>
-            <a className='fb-nav ion-social-facebook' href="https://github.com/neureal" target="_blank"></a>
-            <a className='rdt-nav ion-social-reddit' href="https://www.reddit.com/r/NeuralNetwork/" target="_blank"></a>
+            <a className='fb-nav ion-social-facebook' href="https://www.facebook.com/NeurealAI" target="_blank"></a>
+            <a className='rdt-nav ion-social-reddit' href="https://www.reddit.com/r/Neureal/" target="_blank"></a>
             <a className='twi-nav ion-social-twitter' href="https://twitter.com/neurealai" target="_blank"></a>
             <a className='lnk-nav ion-social-linkedin' href="https://www.linkedin.com/company/neureal/" target="_blank"></a>
             <a className='you-nav ion-social-youtube' href="https://www.youtube.com/channel/UCkebLOaWk9vplZ6ZWLcbvtA" target="_blank"></a>
