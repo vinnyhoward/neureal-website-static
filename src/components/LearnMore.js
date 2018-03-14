@@ -8,7 +8,7 @@ export default class LearnMore extends Component {
         <div className="flex-reverse">
             <div className="column column__two-thirds">
                 <div className="padding-image">
-                    <img src="https://image.ibb.co/n6tLHn/Comp_5.gif" alt="" className="content__image" />
+                    <img src={require( '../images/Comp_5.gif')} alt="" className="content__image" />
                 </div>
             </div>
             <div className="column column__one-third">
@@ -51,14 +51,14 @@ export default class LearnMore extends Component {
                 </p>
             </div>
             <div className="column column__two-thirds">
-                <img src="https://image.ibb.co/kdHKA7/Comp_2.gif" alt="" className="content__image" />
+                <img  src={require( '../images/Comp_2.gif')} alt="" className="content__image" />
             </div>
         </div>
 
 
         <div className="flex-reverse">
             <div className="column column__two-thirds">
-                <img src="https://image.ibb.co/bG34cn/Comp_4.gif" alt="" className="content__image" />
+                <img  src={require( '../images/Comp_4.gif')}alt="" className="content__image" />
             </div>
             <div className="column column__one-third">
                 <div learn-more-flex>
