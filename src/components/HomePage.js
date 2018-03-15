@@ -97,16 +97,16 @@ export default class HomePage extends Component {
             <h1 className="as-seen-caption">As seen in</h1>
 
             <div className='as-seen-container'>
-                <img className='as-seen-image' src='https://image.ibb.co/fsb18S/medium_compressor.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/j30pv7/bitcoin_compressor.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/dz6Uv7/usa_weekly_compressor.jpg' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/jFog8S/steemit_compressor.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/b7fB8S/chippin_compressor.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/dQ6jTS/cointele_compressor.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/hQmJoS/value_compressor.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/hzJ3Nn/future_compressor.jpg' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/gmrev7/decentral_market_compressor.png' alt="team" />
-                <img className='as-seen-image' src='https://image.ibb.co/mAkNF7/cryptoknight_compressor.jpg' alt="team" />
+                <img className='as-seen-image' src={require( '../images/medium_compressor.png')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/bitcoin_compressor.png')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/usa_weekly_compressor.jpg')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/steemit_compressor.png')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/chippin_compressor.png')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/cointele_compressor.png')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/value_compressor.png')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/future_compressor.jpg')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/decentral_market_compressor.png')} alt="team" />
+                <img className='as-seen-image' src={require( '../images/cryptoknight_compressor.jpg')} alt="team" />
             </div>
         </div>
         <div className="grid">
