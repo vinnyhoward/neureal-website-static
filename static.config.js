@@ -3,44 +3,5 @@
 import React, { Component } from 'react';
 
 export default {
-getRoutes: async () => {
-  return [
-    {
-      path: '/',
-    },
-    {
-      path: '/roadmap',
-    },
-    {
-      path:  '/blog-1'
-    },
-    {
-      path: '/team'
-    },
-    {
-      path: '/news'
-    },
-  ]
-},
-Html: class CustomHtml extends Component {
-  render() {
-    const {Html, Head, Body, children } = this.this.props
-
-    // const sheet = new ServerStyleShoot()
-    // const newChildren = sheet.collectStyles(children)
-    // const styleTags = sheet.getStyleElement()
-
-    return (
-      <Html>
-        <Head>
-          <meta name='viewport' content='width=device-width, initial-scale=1' />
-            {/* {styleTags}  */}
-        </Head>
-        <Body>
-          {children}
-        </Body>
-      </Html>
-    )
-  }
-},
+  siteRoot: 'https://sharp-neumann-d1ae35.netlify.com/'
 }
