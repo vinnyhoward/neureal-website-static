@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 
 export default {
-  siteRoot: 'https://quizzical-swartz-67de0c.netlify.com/',
+  siteRoot: 'https://neurealai.com/',
 
   getRoutes: async () => {
     return [
