@@ -23,9 +23,10 @@ class App extends Component {
         <NavigationBar />
         <MobileNav />
         <Switch>
+          {/* <link rel="shortcut icon" href="https://image.ibb.co/huAEdS/favicon.png" /> */}
           <Route component={ HomePage } exact path="/" />
           <Route component={ RoadMap } path="/roadmap" />
-          <Route component={ Blog } path="/blog" />
+          {/* <Route component={ Blog } path="/blog" /> */}
           <Route component={ Team } path="/team" />
           <Route component={ News } path="/news" />
           <Route component={ BlogPosts } path="/blog-1" />
