@@ -3,5 +3,5 @@
 import React, { Component } from 'react';
 
 export default {
-  siteRoot: 'https://quizzical-swartz-67de0c.netlify.com/#/'
+  siteRoot: 'https://sharp-neumann-d1ae35.netlify.com/'
 }
