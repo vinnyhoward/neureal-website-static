@@ -3,10 +3,6 @@
 import React, { Component } from 'react';
 
 export default {
-<<<<<<< HEAD
-  siteRoot: 'https://neurealai.com/',
-=======
->>>>>>> wil
 
   getRoutes: async () => {
     return [
