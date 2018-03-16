@@ -223,7 +223,7 @@ export default class News extends Component {
                 <div className='podcast-author'>Future Tech Podcast</div>
                 <div className='podcast-detail-flex'>
                   <a className='headphone ion-headphone' />
-                  <div className='podcast-title'>Neureal Open-Source, Peer-to-Peer Pr</div>
+                  <div className='podcast-title'>Neureal Open-Source, Peer-to-Peer Predictive AI, Built on the Blockchain</div>
                 </div>
                 <div className='learn-more-container'>
                 </div>
