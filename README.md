@@ -1,7 +1,7 @@
 
 ![Neureal Logo](https://image.ibb.co/dho4cn/logo_Asset_Blue.png "Neureal Logo")
 
-[Website Link](https://gifted-thompson-d75930.netlify.com/) 
+[Website Link](https://neureal.netlify.com/) 
 
 ## Quick Start
 

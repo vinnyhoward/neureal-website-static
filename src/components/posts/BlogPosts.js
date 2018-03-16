@@ -33,7 +33,7 @@ export default class BlogPosts extends Component {
             than just trying to crack a useless hash. Neureal seeks to give humanity the power to see the future and become
             limitless by putting tools currently used by the world’s most powerful companies in the hands of EVERYONE. Neureal’s
             design means it has great potential to become the world’s most accurate predictor. Forget reliable accuracy,
-            we are going black swan hunting! <a className='link-underline' href="http://www.visualcapitalist.com/black-swans-9-recent-events-that-changed-finance-forever/" data-href="http://www.visualcapitalist.com/black-swans-9-recent-events-that-changed-finance-forever/">(http://www.visualcapitalist.com/black-swans-9-recent-events-that-changed-finance-forever/)</a>
+            we are going black swan hunting! <a className='link-underline' href="https://www.visualcapitalist.com/black-swans-9-recent-events-that-changed-finance-forever/" data-href="https://www.visualcapitalist.com/black-swans-9-recent-events-that-changed-finance-forever/">(Black Swans: 9 Recent Events That Changed Finance Forever)</a>
             <br/>
             <br/> Let me give you a brief overview of our team, the project, a few use cases and provide links so you can do your
             own research. If you have any questions, please feel free to reach out to me and I will get you answers or get
@@ -123,12 +123,9 @@ export default class BlogPosts extends Component {
             <br/>
             <br/> I hope I still have your attention after that massive wall of text. Thank you so much for your time. Information
             about our project can be found at the links below. We would love to answer any questions here or in our official
-            telegram, which you can find on our main website.
-            <br/>
-            <br/> (Note, website updated coming very soon as part of marketing push)
-            <br/>
+            telegram.
             <br/> 
-            Link: <a className='link-underline' href="http://neureal.net/" data-href="http://neureal.net/">http://neureal.net/</a>
+            Link: <a className='link-underline' href="https://t.co/UiTeDbNd2i" data-href="https://t.co/UiTeDbNd2i">Please join our Telegram community!</a>
             <br/>
             <br/>
             

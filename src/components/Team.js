@@ -323,7 +323,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/" target="_blank"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/briansewell2/" target="_blank"></a>
           </div>
 
         </div>
@@ -342,7 +342,7 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/" target="_blank"></a>
+            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/ethan-erkiletian-6674a275/" target="_blank"></a>
           </div>
 
         </div>

@@ -33,11 +33,11 @@ export default class News extends Component {
 
       <div className='news-container'>
         <div className='news-post'>
-          <a href='https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people?utm_content=bufferae0b9&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer' target="_blank">
+          <a href='https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people' target="_blank">
             <img className='news-img' src="https://cointelegraph.com/images/725_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kM2Q3YzgzNzIxZjdmODNiMDMxOTNlZWI2Y2JjMWUzMS5wbmc=.jpg" />
               alt="news" />
           </a>
-          <a href='https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people?utm_content=bufferae0b9&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer' target="_blank">
+          <a href='https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people' target="_blank">
             <div className='news-detail-container'>
               <div className='news-container-padding'>
                 <h2 className='news-title'>Иeureal: Bringing Artificial Intelligence to the People</h2>
@@ -119,11 +119,11 @@ export default class News extends Component {
 
       <div className='news-container'>
         <div className='news-post'>
-          <a href='hhttp://usaweekly.com/2018/01/interview-with-jen-greyson-ceo-at-neureal/' target="_blank">
+          <a href='https://usaweekly.com/2018/01/interview-with-jen-greyson-ceo-at-neureal/' target="_blank">
             <img className='news-img' src="https://www.strongholdcybersecurity.com/wp-content/uploads/2018/01/usa-weekly.jpg" alt="news"
             />
           </a>
-          <a href='hhttp://usaweekly.com/2018/01/interview-with-jen-greyson-ceo-at-neureal/' target="_blank">
+          <a href='https://usaweekly.com/2018/01/interview-with-jen-greyson-ceo-at-neureal/' target="_blank">
             <div className='news-detail-container'>
               <div className='news-container-padding'>
                 <h2 className='news-title'>Interview with Jen Greyson, CEO at Neureal</h2>
@@ -165,7 +165,7 @@ export default class News extends Component {
 
       <div className='podcast-container'>
         <div className='podcast-post'>
-          <a href='https://l.facebook.com/l.php?u=https%3A%2F%2Fbuff.ly%2F2DtDQym&h=ATPm5b78akZ7GXRdgF_PLrTXA6lbbW1wWlye2KSmX4OMv46h2jlSD9AuMAsn-Fd4WQGijhFFKjvwR-rWzkIsDM-vBluNkK-UGNnRnHwwQjjByLf4hmSJMS5MMEpgCBopvmWcWFecoLyhPpZyKM-_HWcAsN6f5c_0WTi0k9fy0-uEiTf5cIoo4aGWwyKbQtqsPVpBwvUUVA11JnR9olQ7l8cQ2sagq8dAUkSYVSsOQCyZHm0VBembhAKzZAReuBlIqqtfKYItIJ5ivNWlpUoouucPHGfeOcNMHSeLsgE' target="_blank">
+          <a href='https://onthebus.podbean.com/e/043-wil-brown-robots-virtual-reality-and-data-on-the-blockchain/' target="_blank">
             <div className='news-detail-container'>
               <div className='news-container-padding'>
                 <div className='podcast-author'>Brandon Reese & Daniel Blum</div>
@@ -201,7 +201,7 @@ export default class News extends Component {
 
       <div className='podcast-container'>
         <div className='podcast-post'>
-          <a href='http://freecitiespodcast.libsyn.com/decentral-hub-and-d10e-recap' target="_blank">
+          <a href='https://freecitiespodcast.libsyn.com/decentral-hub-and-d10e-recap' target="_blank">
             <div className='news-detail-container'>
               <div className='news-container-padding'>
                 <div className='podcast-author'>Anthoney</div>
