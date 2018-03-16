@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 
 export default {
-  siteRoot: 'https://wil--neurealai.com',
+  siteRoot: 'https://wil--neurealai.com/',
 
   getRoutes: async () => {
     return [
