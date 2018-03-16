@@ -26,13 +26,11 @@ export default class HomePage extends Component {
                             <div className='learn-more'>WHITEPAPER</div>
                         </div>
                     </a>
-                    <Link to='/roadmap'>
-                    <a href='./roadmap.html'>
+                    <a href='https://drive.google.com/file/d/1GGL177_u3zs4nfQYbLpjhVGLSy9G0lLM/view?usp=sharing' target="_blank">
                         <div className="roadmap-button">
                             <div className='road-map'>ROADMAP</div>
                         </div>
                     </a>
-                    </Link>
                 </div>
             </div>
 
@@ -112,7 +110,7 @@ export default class HomePage extends Component {
         <div className="grid">
             <div className='video-container'>
                 <video className='video-neureal' controls>
-                    <source src="http://jennygreyson.com/wp-content/uploads/2017/12/limitless-copy.mp4" type="video/mp4" /> Your browser does not support the video tag.
+                    <source src={require( '../images/neureal-video.mp4')}/> Your browser does not support the video tag.
                 </video>
             </div>
         </div>

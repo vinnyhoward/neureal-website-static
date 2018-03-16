@@ -127,6 +127,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding-bottom: 50px;
 }
 
 .footer-background {
@@ -798,7 +799,6 @@ body {
     margin: 15px;
     border-radius: 5px;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
     /* border-bottom: 1px solid #d0d0d0 */
 }
 
@@ -1204,6 +1204,7 @@ padding-left: 10px;
     letter-spacing: 1px;
     font-size: 16px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .subscribe-button:hover {
@@ -1240,6 +1241,7 @@ padding-left: 10px;
 
 #mc-embedded-subscribe:hover {
     opacity: 0.75;
+    cursor: pointer;
 }
 
 .join {
