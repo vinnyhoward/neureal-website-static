@@ -10,7 +10,7 @@ export default class Blog extends Component {
     <div className='blog-header-container'>
       <div className='blog-column__two-thirds'>
         <div className='image-blog-container'>
-          <img className='img-main-blog' src="https://image.ibb.co/k2YHTS/neureal_background_final.jpg" alt="blog post" />
+          <img className='img-main-blog' src={require( '../images/neureal_background_final.jpg')}  alt="blog post" />
         </div>
       </div>
       <div className='blog-column__one-thirds'>

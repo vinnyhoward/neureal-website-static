@@ -34,7 +34,7 @@ export default class News extends Component {
       <div className='news-container'>
         <div className='news-post'>
           <a href='https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people?utm_content=bufferae0b9&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer' target="_blank">
-            <img className='news-img' src="https://cointelegraph.com/images/725_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kM2Q3YzgzNzIxZjdmODNiMDMxOTNlZWI2Y2JjMWUzMS5wbmc=.jpg"
+            <img className='news-img' src="https://cointelegraph.com/images/725_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kM2Q3YzgzNzIxZjdmODNiMDMxOTNlZWI2Y2JjMWUzMS5wbmc=.jpg" />
               alt="news" />
           </a>
           <a href='https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people?utm_content=bufferae0b9&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer' target="_blank">
@@ -99,7 +99,7 @@ export default class News extends Component {
       <div className='news-container'>
         <div className='news-post'>
           <a href='https://medium.com/@JenGreyson/blockchain-5-years-from-now-cda989c3048b' target="_blank">
-            <img className='news-img' src="https://image.ibb.co/k2YHTS/neureal_background_final.jpg" alt="news" />
+            <img className='news-img' src={require( '../images/neureal_background_final.jpg')}  alt="news" />
           </a>
           <a href='https://medium.com/@JenGreyson/blockchain-5-years-from-now-cda989c3048b' target="_blank">
             <div className='news-detail-container'>

@@ -171,7 +171,7 @@ export default class Team extends Component {
         <div className='team-box' onClick={ this.clickOpenJen } >
           <div className='team-box-container' type="button" value="Show Modal">
             <div className='team-image-container'>
-              <img className='team-image' src="https://image.ibb.co/iWPucn/jen.jpg" alt="team" />
+              <img className='team-image' src={require( '../images/team/jen.jpg')} alt="team" />
             </div>
             <div className='name-title-container'>
               <div className='team-name'>Jen Greyson</div>
@@ -192,7 +192,7 @@ export default class Team extends Component {
         <div className='team-box' onClick={ this.clickOpenWil } >
           <div className='team-box-container'>
             <div className='team-image-container'>
-              <img className='team-image' src='https://image.ibb.co/k0iy3S/wil.jpg' alt="team" />
+              <img className='team-image' src={require( '../images/team/wil.jpg')} alt="team" />
             </div>
             <div className='name-title-container'>
               <div className='team-name'>Wil Bown</div>
