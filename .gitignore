@@ -5,7 +5,7 @@
 /coverage
 
 Visual Studio Code
-/.vscode
+.vscode/
 
 # misc
 .DS_Store
