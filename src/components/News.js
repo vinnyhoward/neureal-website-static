@@ -34,8 +34,7 @@ export default class News extends Component {
       <div className='news-container'>
         <div className='news-post'>
           <a href='https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people' target="_blank">
-            <img className='news-img' src="https://cointelegraph.com/images/725_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kM2Q3YzgzNzIxZjdmODNiMDMxOTNlZWI2Y2JjMWUzMS5wbmc=.jpg" />
-              alt="news" />
+            <img className='news-img' src="https://cointelegraph.com/images/725_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9kM2Q3YzgzNzIxZjdmODNiMDMxOTNlZWI2Y2JjMWUzMS5wbmc=.jpg" alt="news" />
           </a>
           <a href='https://cointelegraph.com/news/neureal-bringing-artificial-intelligence-to-the-people' target="_blank">
             <div className='news-detail-container'>
@@ -56,8 +55,7 @@ export default class News extends Component {
       <div className='news-container'>
         <div className='news-post'>
           <a href='https://www.newgenapps.com/blog/future-of-ico-impact-of-initial-coin-offering' target="_blank">
-            <img className='news-img' src="https://www.newgenapps.com/hs-fs/hubfs/bitcoin.jpg?width=1196&height=598&name=bitcoin.jpg"
-              alt="news" />
+            <img className='news-img' src="https://www.newgenapps.com/hs-fs/hubfs/bitcoin.jpg?width=1196&height=598&name=bitcoin.jpg" alt="news" />
           </a>
           <a href='https://www.newgenapps.com/blog/future-of-ico-impact-of-initial-coin-offering' target="_blank"> 
             <div className='news-detail-container'>

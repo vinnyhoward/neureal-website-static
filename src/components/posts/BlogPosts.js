@@ -124,8 +124,9 @@ export default class BlogPosts extends Component {
             <br/> I hope I still have your attention after that massive wall of text. Thank you so much for your time. Information
             about our project can be found at the links below. We would love to answer any questions here or in our official
             telegram.
-            <br/> 
-            Link: <a className='link-underline' href="https://t.co/UiTeDbNd2i" data-href="https://t.co/UiTeDbNd2i">Please join our Telegram community!</a>
+            <br/>
+            <br/>
+            <a className='link-underline' href="https://t.co/UiTeDbNd2i" data-href="https://t.co/UiTeDbNd2i">Please join our Telegram community!</a>
             <br/>
             <br/>
             
