@@ -149,7 +149,9 @@ export default class BlogPost6 extends Component {
         to deliver a focused product with the right vision and development to see through the noise. Better to build it so
         that they may come than to fund it and hope it works.
         <br/>
-        <br/>
+        <br/> Don’t forget to follow us on Telegram:
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"
+          data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"> https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
         <div className='creator-blog'>
         </div>
       </div>

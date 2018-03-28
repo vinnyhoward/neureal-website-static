@@ -37,7 +37,7 @@ export default class HomePage extends Component {
             </div>
 
             <div className="column column__two-thirds">
-                <img  src={require( '../images/Comp_1.gif')} alt="" className="content__image" />
+                <img  src={require('../images/Comp_1.gif')} alt="" className="content__image" />
             </div>
         </div>
 
@@ -122,28 +122,3 @@ export default class HomePage extends Component {
     )
   }
 }
-
-//Team Section Quote
-
-//Roadmap button
-//Paper Texture
-//Whitepaper button
-//Extra content from jen grayson site that is missing
-//As seen on below this icons (icons)
-//Learn more below this page
-//Modal
-
-//First Sentence
-//White paper Button Silver
-//Blog Post ReRoute
-//"As seen" Section
-//Call Uncle Andy
-//Whitepaper link
-//Learn more in blog
-
-
-//Seperate accountability advisors from main
-//Whitepaper pdf to HTML
-//More Team & Advisors members
-//Sale Section
- 

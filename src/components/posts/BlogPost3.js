@@ -72,9 +72,9 @@ export default class BlogPost3 extends Component {
         instead of frenzy. So, while impulsivity might get the best of many retail investors, take stock in the fact that
         developers continue to drive innovation and come up with better solutions using decentralizing technologies.
         <br/>
-        <br/>
-
-
+        <br/> Don’t forget to follow us on Telegram:
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"
+          data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"> https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
         <div className='creator-blog'>
         </div>
       </div>

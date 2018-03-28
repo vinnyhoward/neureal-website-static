@@ -127,6 +127,10 @@ export default class BlogPost5 extends Component {
         <br/> When it comes to choosing your crypto-wallet your assets will be a balance of long term security and short term
         usability. Use both hot and cold storage methods to balance your crypto assets appropriately and you’ll be ahead
         with managing your tokens in the wide world of crypto.
+        <br/>
+        <br/> Don’t forget to follow us on Telegram:
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"
+          data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"> https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
         <div className='creator-blog'>
         </div>
       </div>
