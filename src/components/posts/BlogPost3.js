@@ -18,7 +18,7 @@ export default class BlogPost3 extends Component {
     <div className='blog-post-container'>
       <div className='column__post'>
         <div className='image-blog-container'>
-          <img className='img-main-blog' src="https://image.ibb.co/k2YHTS/neureal_background_final.jpg" alt="blog post" />
+          <img className='img-main-blog' src="https://image.ibb.co/iZOzun/neureal_background_final_compressor.jpg" alt="blog post" />
         </div>
       </div>
       <div className='title-blog'>Business as Usual: Crypto Community Moves Forward Despite FUD</div>
@@ -30,14 +30,14 @@ export default class BlogPost3 extends Component {
         recently purchased bitcoin since December.
         <br/>
         <br/>
-        <img className='blog-image' src="https://image.ibb.co/iHbAVS/bitcoin_Chart.jpg" alt="bitcoin chart" />
+        <img className='blog-image' src="https://image.ibb.co/eVjsx7/bitcoin_Chart_compressor.jpg" alt="bitcoin chart" />
         <br/>
         <br/> We are using bitcoin here because it best represents the market. The sudden rise and recent fall has left many worried
         about the state of crypto assets. But it isn’t the first time bitcoin has seen sharp corrections. In fact, we can
         show almost the same pattern from 2012-2013 here:
         <br/>
         <br/>
-        <img className='blog-image' src="https://image.ibb.co/bU82c7/chart_Span.jpg" alt="bitcoin chart" />
+        <img className='blog-image' src="https://image.ibb.co/g6QnVS/chart_Span_compressor.jpg" alt="bitcoin chart" />
         <br/>
         <br/> Those in the crypto community for long enough know that this is par for the course. It’s part of the process. In
         fact, it’s not even the worst bitcoin has seen. As of February 1st, 2018, the correction from all time highs is 55%.

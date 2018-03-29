@@ -18,12 +18,12 @@ export default class BlogPost7 extends Component {
     <div className='blog-post-container'>
       <div className='column__post'>
         <div className='image-blog-container'>
-          <img className='img-main-blog' src="https://image.ibb.co/k2YHTS/neureal_background_final.jpg" alt="blog post" />
+          <img className='img-main-blog' src="https://image.ibb.co/iZOzun/neureal_background_final_compressor.jpg" alt="blog post" />
         </div>
       </div>
       <div className='title-blog'>Inspiring AI: The Biological Basis for a Machine Mind</div>
       <div className='sub-title-blog'>This is a neuron:</div>
-      <img className='blog-image-small' src="https://image.ibb.co/cZO7S7/neuron.jpg" alt="neuron" />
+      <img className='blog-image-small' src="https://image.ibb.co/gFMr77/neuron_compressor.jpg" alt="neuron" />
       <div className='image-caption'>(https://www.evolvingsciences.com/Neuron%20.html)</div>
       <div className='caption-blog'>
         It is a specialized cell in your nervous system responsible for relaying information from one location to another. It does
@@ -38,7 +38,7 @@ export default class BlogPost7 extends Component {
         interpreting the world around you, connections become a little more complicated.
         <br/>
         <br/>
-        <img className='blog-image-small' src="https://image.ibb.co/mUaRLS/neuron_detail.jpg" alt="neuron detail" />
+        <img className='blog-image-small' src="https://image.ibb.co/dbSaZn/neuron_detail_compressor.jpg" alt="neuron detail" />
         <div className='image-caption'>(https://ehumanbiofield.wikispaces.com/Neurons)</div>
         Neurons in your brain have multiple sites where other neurons can connect known as dendrites. The electrical signal is sent
         through the cell, down the long tail known as the axon, and transmitted into the dendrite of yet another cell. A
@@ -48,7 +48,7 @@ export default class BlogPost7 extends Component {
         <br/> In your cortex—the folded fleshy outside always pictured in diagrams—these neurons are arranged in layers.
         <br/>
         <br/>
-        <img className='blog-image-small' src="https://image.ibb.co/cRrcS7/neuron_layers.jpg" alt="neuron layers" />
+        <img className='blog-image-small' src="https://image.ibb.co/dwywPn/neuron_layers_compressor.jpg" alt="neuron layers" />
         <br/>
         <br/> Adding these layers of complexity to a simple functional unit like a neuron gives you a processor that can absorb,
         organize, and interpret data on its own. The field of neuroscience is tasked with decoding this single organ to understand
@@ -67,8 +67,8 @@ export default class BlogPost7 extends Component {
         that identifies what the object is and what it is doing.
         <br/>
         <br/>
-        <img className='blog-image-half' src="https://image.ibb.co/fYgrLS/brain_layer.jpg" alt="brain layer" />
-        <img className='blog-image-half' src="https://image.ibb.co/jr4d0S/brain.jpg" alt="brain" />
+        <img className='blog-image-half' src="https://image.ibb.co/i1HO4n/brain_layer_compressor.jpg" alt="brain layer" />
+        <img className='blog-image-half' src="https://image.ibb.co/dbNUc7/brain_compressor.jpg" alt="brain" />
         <br/>
         <br/> This allows us to arrive at some conclusion about what we are seeing. It could be a man walking or a woman riding
         a bike or a bird chirping. This could be an output. We have taken information in the form of light and interpreted

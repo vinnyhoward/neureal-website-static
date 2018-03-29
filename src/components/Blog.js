@@ -11,7 +11,7 @@ export default class Blog extends Component {
     <div className='blog-header-container'>
       <div className='blog-column__two-thirds'>
         <div className='image-blog-container'>
-          <img className='img-main-blog' src="https://image.ibb.co/k2YHTS/neureal_background_final.jpg" alt="blog post" />
+          <img className='img-main-blog' src="https://image.ibb.co/iZOzun/neureal_background_final_compressor.jpg" alt="blog post" />
         </div>
       </div>
       <div className='blog-column__one-thirds'>
@@ -54,14 +54,6 @@ export default class Blog extends Component {
     blogDate={'January 31, 2018'}
     />
     </Link>
-
-    {/* <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
-    blogTitle={"Neureal and Vitalik's DAICO"}
-    blogCaption={'At the time of this article, there are over 1,400 crypto assets...'}
-    author={'Jen Greyson'}
-    blogDate={'February 7, 2018'}
-    /> */}
     <Link to='/when-does-decentralization-make-sense'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
@@ -71,13 +63,6 @@ export default class Blog extends Component {
     blogDate={'February 14, 2018'}
     />
     </Link>
-    {/* <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
-    blogTitle={'How crypto is changing the VC game'}
-    blogCaption={'In a world where no AI + Blockchain company is fully developed...'}
-    author={'Jen Greyson'}
-    blogDate={'February 21, 2018'}
-    /> */}
     <Link to='/how-to-choose-a-crypto-wallet'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
@@ -87,13 +72,6 @@ export default class Blog extends Component {
     blogDate={'February 28, 2018'}
     />
     </Link>
-    {/* <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
-    blogTitle={'Blockchain. 5 Years From Now.'}
-    blogCaption={'It’s 2018 and it’s official: everyone knows about bitcoin.'}
-    author={'Jen Greyson'}
-    blogDate={'March 7, 2018'}
-    /> */}
     <Link to='/how-to-tell'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
@@ -110,6 +88,15 @@ export default class Blog extends Component {
     blogCaption={'It is a specialized cell in your nervous system responsible...'}
     author={'Eric Nease'}
     blogDate={'March 21, 2018'}
+    />
+    </Link>
+    <Link to='/expanding-the-mind'>
+    <SecondaryBlog
+    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
+    blogTitle={'Expanding the mind'}
+    blogCaption={'How does the human mind perceive knowledge? Being human...'}
+    author={'Eric Nease'}
+    blogDate={'March 28, 2018'}
     />
     </Link>
     </div>

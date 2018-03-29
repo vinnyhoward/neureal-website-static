@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import EmailForm from './EmailForm';
 import LearnMore from './LearnMore';
+import CountdownTimer from './CountdownTimer';
 
 export default class HomePage extends Component {
   render() {
     return (
 <div>
+            <CountdownTimer />
     <div className="content">
         <div className="flex">
             <div className="column column__one-third">
