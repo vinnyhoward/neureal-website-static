@@ -54,6 +54,15 @@ export default class Blog extends Component {
     blogDate={'March 7, 2018'}
     />
     </Link>
+    <Link to='/neureal-vitalik'>
+    <SecondaryBlog
+    blogImage={'https://image.ibb.co/mmEJun/Round_1_04.png'}
+    blogTitle={"Neureal and Vitalik's DAICO"}
+    blogCaption={'Before he presented the idea publicly in January, Neureal had already...'}
+    author={'Jen Greyson'}
+    blogDate={'March 14, 2018'}
+    />
+    </Link>
     <Link to='/when-does-decentralization-make-sense'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/hGBpH7/Round_1_Blogs_04.png'}
@@ -61,6 +70,15 @@ export default class Blog extends Component {
     blogCaption={'Whether you’re interested in the wide world of crypto assets...'}
     author={'Eric Nease'}
     blogDate={'March 21, 2018'}
+    />
+    </Link>
+    <Link to='/how-crypto-is-changing'>
+    <SecondaryBlog
+    blogImage={'https://image.ibb.co/kaREZn/RAISE_1_M_03_07.png'}
+    blogTitle={'How crypto is changing the VC game'}
+    blogCaption={'After a recent conversation on LinkedIn spurred my curiosity...'}
+    author={'Jen Greyson'}
+    blogDate={'March 28, 2018'}
     />
     </Link>
     {/* <Link to='/how-to-choose-a-crypto-wallet'>

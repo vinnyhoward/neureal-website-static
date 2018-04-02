@@ -20,6 +20,8 @@ import BlogPost5 from './components/posts/BlogPost5';
 import BlogPost6 from './components/posts/BlogPost6';
 import BlogPost7 from './components/posts/BlogPost7';
 import BlogPost8 from './components/posts/BlogPost8';
+import BlogPost9 from './components/posts/BlogPost9';
+import BlogPost10 from './components/posts/BlogPost10';
 class App extends Component {
   render () {
     return (
@@ -46,6 +48,8 @@ class App extends Component {
           <Route component={ BlogPost6 } path="/how-to-tell" />
           <Route component={ BlogPost7 } path="/machine-mind" />
           <Route component={ BlogPost8 } path="/expanding-the-mind" />
+          <Route component={ BlogPost9 } path="/neureal-vitalik" />
+          <Route component={ BlogPost10 } path="/how-crypto-is-changing" />
         </Switch>
       </div>
     </div>

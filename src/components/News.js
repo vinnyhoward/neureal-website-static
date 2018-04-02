@@ -32,30 +32,30 @@ export default class News extends Component {
       newsTitle={"Blockchain Insider: Jen Greyson"}
       newsCaption={"Recently named one of the Top 8 Women in Crypto, Jen Greyson of the Neureal Network and CEO of Powered by Neureal brings decades of executive leadership to the blockchain/crypto"}
       />
-      <NewsPost 
+      {/* <NewsPost 
       newsLink={"https://medium.com/@JenGreyson/blockchain-5-years-from-now-cda989c3048b"}
       newsImage={"https://image.ibb.co/k2YHTS/neureal_background_final.jpg"}
       newsTitle={"Blockchain. 5 Years From Now."}
       newsCaption={"I had an interviewer ask me where I thought Ethereum was going to be in 5 years. Five years. That’s a lifetime in blockchain. Look what we’ve seen in the last five MONTHS"}
-      />
+      /> */}
       <NewsPost 
       newsLink={"http://usaweekly.com/2018/01/interview-with-jen-greyson-ceo-at-neureal/"}
       newsImage={"https://www.strongholdcybersecurity.com/wp-content/uploads/2018/01/usa-weekly.jpg"}
       newsTitle={"Interview with Jen Greyson, CEO at Neureal"}
       newsCaption={"Starting a business is a big achievement for many entrepreneurs, but maintaining one is the larger challenge. There are many standard challenges that face every business whether they"}
       />
-      <NewsPost 
+      {/* <NewsPost 
       newsLink={"https://medium.com/@JenGreyson/neureal-and-vitaliks-daico-962e8bfc6391"}
       newsImage={"https://image.ibb.co/bsH0En/network.jpg"}
       newsTitle={"Neureal and Vitalik’s DAICO"}
       newsCaption={"There’s been a lot of discussion about Vitalik Buterin’s DAICO concept"}
-      />
-      <NewsPost 
+      /> */}
+      {/* <NewsPost 
       newsLink={"https://medium.com/@JenGreyson/neureal-and-vitaliks-daico-962e8bfc6391"}
       newsImage={"https://image.ibb.co/dS0sS7/crypto.jpg"}
       newsTitle={"How crypto is changing the VC game."}
       newsCaption={"After a recent conversation on LinkedIn spurred my curiosity, I went looking at how the current spike of ETH would look for the ICOs of 2017"}
-      />
+      /> */}
 
     </div>
 

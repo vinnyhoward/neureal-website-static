@@ -65,6 +65,11 @@ body {
     color: #00a8e1;
 }
 
+.link-accent {
+    width: 100%;
+    color: #00a8e1;
+}
+
 * {
     padding: 0;
     margin: 0;
