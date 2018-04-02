@@ -11,7 +11,7 @@ export default class Blog extends Component {
     <div className='blog-header-container'>
       <div className='blog-column__two-thirds'>
         <div className='image-blog-container'>
-          <img className='img-main-blog' src="https://image.ibb.co/iZOzun/neureal_background_final_compressor.jpg" alt="blog post" />
+          <img className='img-main-blog' src="https://image.ibb.co/h7KyS7/main_banner_compressor.jpg" alt="blog post" />
         </div>
       </div>
       <div className='blog-column__one-thirds'>
@@ -29,76 +29,76 @@ export default class Blog extends Component {
     <div className='blog-secondary-grid-container'>
     <Link to='/blockchain-vs-bitcoin'>
     <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
+    blogImage={'https://image.ibb.co/eWUqqS/Round_1_Blogs_02.png'}
     blogTitle={'Blockchain vs Bitcoin'}
     blogCaption={'It’s 2018 and it’s official: everyone knows about bitcoin.'}
     author={'Eric Nease'}
-    blogDate={'January 17, 2018'}
+    blogDate={'February 21, 2018'}
     />
     </Link>
     <Link to='/crypto-wallet'>
     <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
+    blogImage={'https://image.ibb.co/gsDrVS/Round_1_Blogs_03.png'}
     blogTitle={'What is a Bitcoin Wallet Anyway'}
     blogCaption={'Crypto assets require a fundamental change in how we perceive...'}
-    author={'Eric Nease'}
-    blogDate={'January 24, 2018'}
-    />
-    </Link>
-    <Link to='/crypto-community-moves-forward'>
-    <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
-    blogTitle={'Crypto Market Moves Forward Despite FUD'}
-    blogCaption={'Has the sky fallen? Has the bubble popped? Is this what...'}
-    author={'Eric Nease'}
-    blogDate={'January 31, 2018'}
-    />
-    </Link>
-    <Link to='/when-does-decentralization-make-sense'>
-    <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
-    blogTitle={'When Does Decentralization Make Sense'}
-    blogCaption={'Whether you’re interested in the wide world of crypto assets...'}
-    author={'Eric Nease'}
-    blogDate={'February 14, 2018'}
-    />
-    </Link>
-    <Link to='/how-to-choose-a-crypto-wallet'>
-    <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
-    blogTitle={'How to Choose a Crypto Wallet'}
-    blogCaption={'Whether you’re interested in the wide world of crypto assets...'}
     author={'Eric Nease'}
     blogDate={'February 28, 2018'}
     />
     </Link>
-    <Link to='/how-to-tell'>
+    <Link to='/crypto-community-moves-forward'>
     <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
-    blogTitle={'How to Tell if Your AI Startup'}
-    blogCaption={'In a world where no AI + Blockchain company is fully developed...'}
+    blogImage={'https://image.ibb.co/mwjRx7/Round_1_Blogs_07.png'}
+    blogTitle={'Crypto Market Moves Forward Despite FUD'}
+    blogCaption={'Has the sky fallen? Has the bubble popped? Is this what...'}
     author={'Eric Nease'}
-    blogDate={'March 14, 2018'}
+    blogDate={'March 7, 2018'}
     />
     </Link>
-    <Link to='/machine-mind'>
+    <Link to='/when-does-decentralization-make-sense'>
     <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
-    blogTitle={'The Biological Basis for a Machine Mind'}
-    blogCaption={'It is a specialized cell in your nervous system responsible...'}
+    blogImage={'https://image.ibb.co/hGBpH7/Round_1_Blogs_04.png'}
+    blogTitle={'When Does Decentralization Make Sense'}
+    blogCaption={'Whether you’re interested in the wide world of crypto assets...'}
     author={'Eric Nease'}
     blogDate={'March 21, 2018'}
     />
     </Link>
+    {/* <Link to='/how-to-choose-a-crypto-wallet'>
+    <SecondaryBlog
+    blogImage={'https://image.ibb.co/kbULPn/Round_1_Blogs_05.png'}
+    blogTitle={'How to Choose a Crypto Wallet'}
+    blogCaption={'Whether you’re interested in the wide world of crypto assets...'}
+    author={'Eric Nease'}
+    blogDate={'April 4, 2018'}
+    />
+    </Link>
+    <Link to='/how-to-tell'>
+    <SecondaryBlog
+    blogImage={'https://image.ibb.co/dwofPn/Round_1_Blogs_06.png'}
+    blogTitle={'How to Tell if Your AI Startup'}
+    blogCaption={'In a world where no AI + Blockchain company is fully developed...'}
+    author={'Eric Nease'}
+    blogDate={'April 18, 2018'}
+    />
+    </Link>
+    <Link to='/machine-mind'>
+    <SecondaryBlog
+    blogImage={'https://image.ibb.co/jV60Pn/Round_1_Blogs_08.png'}
+    blogTitle={'The Biological Basis for a Machine Mind'}
+    blogCaption={'It is a specialized cell in your nervous system responsible...'}
+    author={'Eric Nease'}
+    blogDate={'April 25, 2018'}
+    />
+    </Link>
     <Link to='/expanding-the-mind'>
     <SecondaryBlog
-    blogImage={'https://image.ibb.co/k2YHTS/neureal_background_final.jpg'}
+    blogImage={'https://image.ibb.co/jV60Pn/Round_1_Blogs_08.png'}
     blogTitle={'Expanding the mind'}
     blogCaption={'How does the human mind perceive knowledge? Being human...'}
     author={'Eric Nease'}
     blogDate={'March 28, 2018'}
     />
-    </Link>
+    </Link> */}
     </div>
   </div>
 </div>

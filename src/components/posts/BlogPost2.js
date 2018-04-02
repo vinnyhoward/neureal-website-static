@@ -18,7 +18,7 @@ export default class BlogPost2 extends Component {
 <div className='blog-post-container'>
   <div className='column__post'>
     <div className='image-blog-container'>
-      <img className='img-main-blog' src="https://image.ibb.co/iZOzun/neureal_background_final_compressor.jpg" alt="blog post" />
+      <img className='img-main-blog' src="https://image.ibb.co/gsDrVS/Round_1_Blogs_03.png" alt="blog post" />
     </div>
   </div>
 

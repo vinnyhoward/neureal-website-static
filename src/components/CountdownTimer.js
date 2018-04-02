@@ -47,9 +47,16 @@ export default class CountdownTimer extends Component {
 
   render() {
     return (
-      <div>
-      { this.state.days} Days { this.state.hours } Hours { this.state.minutes} Minutes { this.state.seconds } Seconds
-      </div>
+<div className='countdown__container'>
+  <div className='countdown__flex'>
+  <div className='timer__container'>
+  <div className='timer__number'>{ this.state.days }<div className='timer__type-of-time'>Days</div></div>
+  <div className='timer__number'>{ this.state.hours }<div className='timer__type-of-time'>Hours</div></div>
+  <div className='timer__number'>{ this.state.minutes }<div className='timer__type-of-time'>Minutes</div></div>
+  <div className='timer__number'>{ this.state.seconds }<div className='timer__type-of-time'>Seconds</div></div>
+  </div>
+  </div>
+</div>z
     )
   }
 };

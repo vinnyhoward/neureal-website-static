@@ -18,7 +18,7 @@ export default class BlogPost6 extends Component {
     <div className='blog-post-container'>
       <div className='column__post'>
         <div className='image-blog-container'>
-          <img className='img-main-blog' src="hhttps://image.ibb.co/iZOzun/neureal_background_final_compressor.jpg" alt="blog post" />
+          <img className='img-main-blog' src="https://image.ibb.co/dwofPn/Round_1_Blogs_06.png" alt="blog post" />
         </div>
       </div>
       <div className='title-blog'>How to Tell if Your AI + Blockchain Start Up is Doing It Right</div>
