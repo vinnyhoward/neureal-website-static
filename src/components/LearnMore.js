@@ -13,8 +13,6 @@ export default class LearnMore extends Component {
             </div>
             <div className="column column__one-third">
                 <h1 className="content__title">Breakthrough.</h1>
-                {/*
-                <h3 className='sub-title'></h3> */}
                 <p className="content__paragraph">Neureal’s solution is a breakthrough because it is Limitless. The network’s architecture allows users to
                     ask Neureal about the future the same way we ask Google about the present and the past–with the same
                     confidence we have in the results of Google’s algorithms and first page. This limitless ability creates
@@ -23,20 +21,15 @@ export default class LearnMore extends Component {
                     the future one decision at a time. Whether users are companies or governments or individuals, actions
                     based on accurate predictions will have profound impacts across every industry, topic, and social good.</p>
                 <h1 className="content__title">Impact.</h1>
-                {/*
-                <h3 className='sub-title'></h3> */}
                 <p className="content__paragraph">We are giving everyone the ability to matter, to make a difference in the world on a grand scale. Users will
                     be able to predict anything they’re passionate about, from hurricane paths to the extinction of a species,
                     to climate change, to medical advances. And, of course… Bitcoin prices.</p>
             </div>
         </div>
 
-
         <div className="flex">
             <div className="column column__one-third">
                 <h1 className="content__title">Decentralized.</h1>
-                {/*
-                <h3 className='sub-title'>Decentralized.</h3> */}
                 <p className="content__paragraph">There is no centralized system that can be more accurate–not Facebook, not Google–they cannot harness the
                     massive and raw amounts of data needed to surpass what Neureal’s architecture allows. We will always
                     be one step ahead in size and accuracy. Bitcoin itself proved the power of community, creating a distributed
@@ -44,8 +37,6 @@ export default class LearnMore extends Component {
                 </p>
 
                 <h1 className="content__title">Timeless.</h1>
-                {/*
-                <h3 className='sub-title'>Decentralized.</h3> */}
                 <p className="content__paragraph">Data science continues to hit limitations. Neureal’s ability to be agnostic to the algorithms used allows
                     the system to be forever adaptable.
                 </p>

@@ -83,7 +83,7 @@ export default class News extends Component {
 
       <div className='podcast-container'>
         <div className='podcast-post'>
-          <a href='https://l.facebook.com/l.php?u=https%3A%2F%2Fbuff.ly%2F2DtDQym&h=ATPm5b78akZ7GXRdgF_PLrTXA6lbbW1wWlye2KSmX4OMv46h2jlSD9AuMAsn-Fd4WQGijhFFKjvwR-rWzkIsDM-vBluNkK-UGNnRnHwwQjjByLf4hmSJMS5MMEpgCBopvmWcWFecoLyhPpZyKM-_HWcAsN6f5c_0WTi0k9fy0-uEiTf5cIoo4aGWwyKbQtqsPVpBwvUUVA11JnR9olQ7l8cQ2sagq8dAUkSYVSsOQCyZHm0VBembhAKzZAReuBlIqqtfKYItIJ5ivNWlpUoouucPHGfeOcNMHSeLsgE' target="_blank">
+          <a href='https://onthebus.podbean.com/e/043-wil-brown-robots-virtual-reality-and-data-on-the-blockchain/' target="_blank">
             <div className='news-detail-container'>
               <div className='news-container-padding'>
                 <div className='podcast-author'>Brandon Reese & Daniel Blum</div>
@@ -119,7 +119,7 @@ export default class News extends Component {
 
       <div className='podcast-container'>
         <div className='podcast-post'>
-          <a href='http://freecitiespodcast.libsyn.com/decentral-hub-and-d10e-recap' target="_blank">
+          <a href='https://freecitiespodcast.libsyn.com/decentral-hub-and-d10e-recap' target="_blank">
             <div className='news-detail-container'>
               <div className='news-container-padding'>
                 <div className='podcast-author'>Anthoney</div>
@@ -143,7 +143,7 @@ export default class News extends Component {
                 <div className='podcast-author'>Future Tech Podcast</div>
                 <div className='podcast-detail-flex'>
                   <a className='headphone ion-headphone' />
-                  <div className='podcast-title'>Neureal Open-Source, Peer-to-Peer Pr</div>
+                  <div className='podcast-title'>Neureal Open-Source, Peer-to-Peer Predictive AI, Built on the Blockchain</div>
                 </div>
                 <div className='learn-more-container'>
                 </div>
