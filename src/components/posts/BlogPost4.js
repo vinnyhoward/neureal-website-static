@@ -19,6 +19,9 @@ export default class BlogPost4 extends Component {
       <div className='column__post'>
         <div className='image-blog-container'>
           <img className='img-main-blog' src="https://image.ibb.co/hGBpH7/Round_1_Blogs_04.png" alt="blog post" />
+
+          <div className='author-name-detail'>Eric Nease</div>
+          <div className='author-date-posted-detail'>March 21, 2018</div>
         </div>
       </div>
       <div className='title-blog'>When Does Decentralization Make Sense?</div>

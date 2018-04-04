@@ -19,6 +19,9 @@ export default class BlogPost9 extends Component {
       <div className='column__post'>
         <div className='image-blog-container'>
           <img className='img-main-blog' src="https://image.ibb.co/mmEJun/Round_1_04.png" alt="blog post" />
+
+          <div className='author-name-detail'>Jen Greyson</div>
+          <div className='author-date-posted-detail'>March 14, 2018</div>
         </div>
       </div>
       <div className='title-blog'>Neureal and Vitalik’s DAICO</div>

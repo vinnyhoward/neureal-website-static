@@ -19,6 +19,8 @@ export default class BlogPost5 extends Component {
       <div className='column__post'>
         <div className='image-blog-container'>
           <img className='img-main-blog' src="https://image.ibb.co/kbULPn/Round_1_Blogs_05.png" alt="blog post" />
+            <div className='author-name-detail'>Eric Nease</div>
+            <div className='author-date-posted-detail'>April 4, 2018</div>
         </div>
       </div>
       <div className='title-blog'>How to Choose a Crypto Wallet</div>

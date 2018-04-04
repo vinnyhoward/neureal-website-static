@@ -81,7 +81,7 @@ export default class Blog extends Component {
     blogDate={'March 28, 2018'}
     />
     </Link>
-    {/* <Link to='/how-to-choose-a-crypto-wallet'>
+    <Link to='/how-to-choose-a-crypto-wallet'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/kbULPn/Round_1_Blogs_05.png'}
     blogTitle={'How to Choose a Crypto Wallet'}
@@ -90,7 +90,7 @@ export default class Blog extends Component {
     blogDate={'April 4, 2018'}
     />
     </Link>
-    <Link to='/how-to-tell'>
+    {/* <Link to='/how-to-tell'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/dwofPn/Round_1_Blogs_06.png'}
     blogTitle={'How to Tell if Your AI Startup'}

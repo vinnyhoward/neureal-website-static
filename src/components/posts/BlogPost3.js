@@ -19,6 +19,9 @@ export default class BlogPost3 extends Component {
       <div className='column__post'>
         <div className='image-blog-container'>
           <img className='img-main-blog' src="https://image.ibb.co/mwjRx7/Round_1_Blogs_07.png" alt="blog post" />
+
+          <div className='author-name-detail'>Eric Nease</div>
+          <div className='author-date-posted-detail'>March 7, 2018</div>
         </div>
       </div>
       <div className='title-blog'>Business as Usual: Crypto Community Moves Forward Despite FUD</div>
