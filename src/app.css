@@ -1,10 +1,26 @@
-@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
-@font-face {
-    font-family: myFirstFont;
-    src: url(https://gist.github.com/orangtanah/495dfd86de9118c52007de078cf66249.js);
-}
+/* @import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"); */
 
+@font-face {
+    font-family: 'Montserrat';
+    font-style: light;
+    font-weight: 300;
+    src: local('Montserrat'),
+         url('./images/fonts/Montserrat-Light.ttf') format('ttf'), 
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: regular;
+    font-weight: 400;
+    src: local('Montserrat'),
+         url('./images/fonts/Montserrat-Regular.ttf') format('ttf'), 
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: medium;
+    font-weight: 500;
+    src: local('Montserrat'),
+         url('./images/fonts/Montserrat-Medium.ttf') format('ttf'), 
+  }
 @-webkit-keyframes subtleFade {
     from {
         top: -300px;
