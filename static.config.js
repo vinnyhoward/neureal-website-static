@@ -3,7 +3,6 @@
 import React, { Component } from 'react';
 
 export default {
-  siteRoot: 'https://sharp-neumann-d1ae35.netlify.com/',
 
   getRoutes: async () => {
     return [
