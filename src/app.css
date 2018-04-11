@@ -1,3 +1,7 @@
+
+.email-nav-margin {
+    margin-right: 20px;
+}
 .social-icons {
     color: white;
     fill: white;
@@ -19,7 +23,6 @@
 .email-nav{
     color: #fff;
     font-size: 30px;
-    margin-left: 12.5px;
     margin-right: 2px;
     margin-top: 10px;
     height: 20px;
@@ -2466,54 +2469,20 @@ border-radius: 50%; */
 }
 
 @media (max-width: 500px) {
-    .git-footer {
+    .social-icons-footer {
         color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
+        height: 25px;
+        margin: 7.5px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .fb-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .rdt-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .twi-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .lnk-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .you-footer {
-        color: #fff;
-        font-size: 25px;
-        padding: 7.5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+    
     .telegram-logo-footer {
         width: 25px;
         height: 25px;
-        margin-top: 3px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 7.5px;
+        margin-left: 10px;
+        margin-right: 10px;
         cursor: pointer;
     }
     .news-caption {
@@ -2819,12 +2788,5 @@ border-radius: 50%; */
         padding: 7.5px;
         padding-left: 13px;
         padding-right: 13px;
-    }
-    .telegram-logo-footer {
-        width: 25px;
-        height: 25px;
-        margin-top: 3px;
-        margin-left: 5px;
-        margin-right: 5px;
     }
 }

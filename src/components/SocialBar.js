@@ -9,7 +9,8 @@ const SocialBar = () => {
         <div className="squeeze">
           <span className='social-icons-container'>
             {/* <a className='email-nav ion-email' href="mailto:info@neureal.net"></a> */}
-            <a  href="mailto:info@neureal.net" target="_blank">
+            <a  
+            href="mailto:info@neureal.net" target="_blank">
             <img 
               className='email-nav'
               src={require( '../images/icons/email.svg')}
@@ -17,7 +18,7 @@ const SocialBar = () => {
               alt="github"
              />
              </a>
-            <p>info@neureal.net</p>
+            <p className='email-nav-margin'>info@neureal.net</p>
             <a href="https://github.com/neureal" target="_blank">
             <img 
               className='social-icons'
