@@ -11,10 +11,9 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
-    "ionicons": "^3.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-favicon": "0.0.14",
+    "react-helmet": "^5.2.0",
     "react-modal": "^3.3.1",
     "react-router-dom": "^4.2.2",
     "react-static": "^5.1.8"
