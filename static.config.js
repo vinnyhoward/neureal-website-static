@@ -35,7 +35,7 @@ export default {
         <Html>
           <Head>
             <meta name='viewport' content='width=device-width, initial-scale=1' />
-              {/* {styleTags}  */}
+            <link rel="shortcut icon" href="/favicon.ico" />
           </Head>
           <Body>
             {children}
