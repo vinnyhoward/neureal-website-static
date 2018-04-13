@@ -127,7 +127,6 @@ body {
     position: absolute;
     /*important*/
     bottom: 0;
-    /*its super important to set all the position to 0*/
     left: 0;
     right: 0;
     top: 0;
@@ -162,7 +161,6 @@ body {
 .main {
     width: 100%;
     height: 100%;
-    /* background: #0097cb; */
     padding: 85px 20px;
     padding-bottom: 200px;
 }
@@ -178,7 +176,6 @@ body {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    /* background: #0097cb; */
     padding: 85px 20px;
 }
 
@@ -2521,8 +2518,8 @@ border-radius: 50%; */
         /* Half the height */
         margin-left: -165px;
         box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.072);
-        -webkit-animation-name: subtleFade;
-        -webkit-animation-duration: 0.55s;
+        /* -webkit-animation-name: subtleFade;
+        -webkit-animation-duration: 0.55s; */
         animation-name: none;
         animation-duration: 0.55s;
         overflow-y: scroll;
