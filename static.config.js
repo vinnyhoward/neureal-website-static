@@ -8,7 +8,7 @@ export default {
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="shortcut icon" href="./favicon-32x32.png" />
+          <link rel="shortcut icon" href="./favicon-32-32.svg" />
         </Head>
         <Body>{children}</Body>
       </Html>
