@@ -59,6 +59,6 @@ class App extends Component {
 </Router>
     )
   }
-}
+};
 
 export default hot(module)(App)
