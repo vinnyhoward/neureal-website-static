@@ -14,7 +14,7 @@ export default class BlogPost9 extends Component {
           <div className='author-date-posted-detail'>April 11, 2018</div>
         </div>
       </div>
-      <div className='title-blog'>Raise $1M; HODL $132MM. How crypto is changing the VC game.</div>
+      <div className='title-blog'>Blockchain. 5 Years From Now.</div>
       <div className='caption-blog'>
         After a recent conversation on LinkedIn spurred my curiosity, I went looking at how the current spike of ETH would look for
         the ICOs of 2017. The results shocked me.

@@ -3,6 +3,17 @@
 import React, { Component } from 'react';
 
 export default {
+    Document: ({ Html, Head, Body, children, siteData, renderMeta }) => (
+      <Html lang="en-US">
+        <Head>
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="shortcut icon" href="./src/images/favicon-32x32.png" />
+        </Head>
+        <Body>{children}</Body>
+      </Html>
+    ),
+
 
   getRoutes: async () => {
     return [
@@ -23,26 +34,26 @@ export default {
       },
     ]
   },
-  Html: class CustomHtml extends Component {
-    render() {
-      const {Html, Head, Body, children } = this.this.props
+  // Html: class CustomHtml extends Component {
+  //   render() {
+  //     const {Html, Head, Body, children } = this.this.props
   
-      // const sheet = new ServerStyleShoot()
-      // const newChildren = sheet.collectStyles(children)
-      // const styleTags = sheet.getStyleElement()
+  //     // const sheet = new ServerStyleShoot()
+  //     // const newChildren = sheet.collectStyles(children)
+  //     // const styleTags = sheet.getStyleElement()
   
-      return (
-        <Html>
-          <Head>
-            <meta name='viewport' content='width=device-width, initial-scale=1' />
-            <link rel="shortcut icon" href="./src/images/favicon-32x32.png" />
-          </Head>
-          <Body>
-            {children}
-          </Body>
-        </Html>
-      )
-    }
-  },
+  //     return (
+  //       <Html>
+  //         <Head>
+  //           <meta name='viewport' content='width=device-width, initial-scale=1' />
+  //           <link rel="shortcut icon" href="./src/images/favicon-32x32.png" />
+  //         </Head>
+  //         <Body>
+  //           {children}
+  //         </Body>
+  //       </Html>
+  //     )
+  //   }
+  // },
   
 }
