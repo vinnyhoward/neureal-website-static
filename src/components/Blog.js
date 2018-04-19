@@ -99,7 +99,7 @@ export default class Blog extends Component {
     blogDate={'April 11, 2018'}
     />
     </Link>
-    {/* <Link to='/how-to-tell'>
+    <Link to='/how-to-tell'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/dwofPn/Round_1_Blogs_06.png'}
     blogTitle={'How to Tell if Your AI Startup'}
@@ -108,7 +108,25 @@ export default class Blog extends Component {
     blogDate={'April 18, 2018'}
     />
     </Link>
-    <Link to='/machine-mind'>
+    <Link to='/eden-has-no-walls'>
+    <SecondaryBlog
+    blogImage={'http://image.ibb.co/gEyhj7/eden_ai_masses.png'}
+    blogTitle={'Eden Has No Walls: How Blockchain Brings AI to the Masses'}
+    blogCaption={'As dust settles from the late 2017 crypto-craze, promising...'}
+    author={'Eric Nease'}
+    blogDate={'April 19, 2018'}
+    />
+    </Link>
+    <Link to='/living-with-artificial-intelligence'>
+    <SecondaryBlog
+    blogImage={'http://image.ibb.co/fXAOrn/living_artificial_intelligence_comp.png'}
+    blogTitle={'Living with Artificial Intelligence'}
+    blogCaption={'For developers and tech junkies, the term AI brings a world of possibilities...'}
+    author={'Eric Nease'}
+    blogDate={'April 19, 2018'}
+    />
+    </Link>
+    {/* <Link to='/machine-mind'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/jV60Pn/Round_1_Blogs_08.png'}
     blogTitle={'The Biological Basis for a Machine Mind'}
