@@ -143,8 +143,8 @@ export default class BlogPost4 extends Component {
         These new ecosystems allow for opportunity to disrupt and improve existing sectors while innovating for future markets.
         <br/>
         <br/> Don’t forget to follow us on Telegram:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"
-          data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"> https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q"
+          data-href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q"> https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q</a>
         <br/>
         <div className='creator-blog'>
         </div>
