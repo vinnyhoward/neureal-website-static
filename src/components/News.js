@@ -63,23 +63,6 @@ export default class News extends Component {
 
   <h2 className='podcast-header'>Podcasts</h2>
 
-  <div className='podcast-container'>
-    <div className='podcast-post'>
-      <a href='https://vimeo.com/227450398' target="_blank">
-        <div className='news-detail-container'>
-          <div className='news-container-padding'>
-            <div className='podcast-author'>Ernest Hancock</div>
-            <div className='podcast-detail-flex'>
-              <img className='social-icons' src={require( '../images/icons/headphone.svg')} fill="white" alt="reddit" />
-              <div className='podcast-title'>Hour 3</div>
-            </div>
-            <div className='learn-more-container'>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
 
   <div className='podcast-container'>
     <div className='podcast-post'>
