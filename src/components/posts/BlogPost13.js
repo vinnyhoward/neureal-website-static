@@ -112,8 +112,8 @@ export default class BlogPost9 extends Component {
         of predictive AI to the world. To discover just how we’re doing that, follow our journey:
         <br/>
         <br/> 
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A" data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A">
-          https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q" data-href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q">
+          https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q</a>
 
         <div className='creator-blog'>
         </div>

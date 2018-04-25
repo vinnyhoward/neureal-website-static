@@ -149,8 +149,8 @@ export default class BlogPost7 extends Component {
         <br/>
         <br/>
         <br/> Don’t forget to follow us on Telegram:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A" data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A">
-        https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q" data-href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q">
+        https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q</a>
 
         <div className='creator-blog'>
         </div>

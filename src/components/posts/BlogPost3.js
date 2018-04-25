@@ -76,8 +76,8 @@ export default class BlogPost3 extends Component {
         developers continue to drive innovation and come up with better solutions using decentralizing technologies.
         <br/>
         <br/> Don’t forget to follow us on Telegram:
-        <a className='link-underline' href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"
-          data-href=" https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A"> https://t.me/joinchat/C8JtFgzGzcsN_tjxoYBH1A</a>
+        <a className='link-underline' href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q"
+          data-href=" https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q"> https://t.me/joinchat/C8JtFkMMkD2O6skOEaFn7Q</a>
         <div className='creator-blog'>
         </div>
       </div>
