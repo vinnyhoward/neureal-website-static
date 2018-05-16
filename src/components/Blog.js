@@ -126,7 +126,7 @@ export default class Blog extends Component {
     blogDate={'April 19, 2018'}
     />
     </Link>
-    {/* <Link to='/machine-mind'>
+    <Link to='/machine-mind'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/jV60Pn/Round_1_Blogs_08.png'}
     blogTitle={'The Biological Basis for a Machine Mind'}
@@ -135,7 +135,7 @@ export default class Blog extends Component {
     blogDate={'April 25, 2018'}
     />
     </Link>
-    <Link to='/expanding-the-mind'>
+    {/* <Link to='/expanding-the-mind'>
     <SecondaryBlog
     blogImage={'https://image.ibb.co/jV60Pn/Round_1_Blogs_08.png'}
     blogTitle={'Expanding the mind'}

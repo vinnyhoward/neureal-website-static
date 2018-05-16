@@ -230,7 +230,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jengreyson/" target="_blank" ></a>
+            <a href="https://www.linkedin.com/in/jengreyson/" target="_blank" >
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
@@ -250,7 +252,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/wil-bown-b68bb718/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/wil-bown-b68bb718/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
@@ -270,7 +274,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jordan-miller-636724b/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/jordan-miller-636724b/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
@@ -290,7 +296,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/kyleranderson/" target="_blank"> </a>
+            <a href="https://www.linkedin.com/in/kyleranderson/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
@@ -310,7 +318,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jamesalton" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/jamesalton" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
@@ -329,7 +339,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/briannelson36/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/briannelson36/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
         </div>
 
@@ -347,7 +359,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/nickbaguley/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/nickbaguley/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
@@ -369,7 +383,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/briansewell2/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/briansewell2/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
@@ -388,7 +404,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/ethan-erkiletian-6674a275/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/ethan-erkiletian-6674a275/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
@@ -407,7 +425,8 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/jakewiser/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/jakewiser/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" /></a>
           </div>
 
         </div>
@@ -426,7 +445,9 @@ export default class Team extends Component {
           </div>
 
           <div className='team-icon-container'>
-            <a className='lk ion-social-linkedin' href="https://www.linkedin.com/in/bentaylordata/" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/bentaylordata/" target="_blank">
+            <img className='team-icons' src={require( '../images/icons/logo-linkedin.svg')} fill="black" alt="linkedin" />
+            </a>
           </div>
 
         </div>
